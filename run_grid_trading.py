@@ -132,9 +132,9 @@ def create_grid_config(config_data: dict) -> GridConfig:
     else:
         # 普通网格和马丁网格：从 price_range 读取
         params['lower_price'] = Decimal(
-            str(grid_config['price_range']['lower_price']))
+            str(grid_config['lower_price']))
         params['upper_price'] = Decimal(
-            str(grid_config['price_range']['upper_price']))
+            str(grid_config['upper_price']))
 
     # 🔥 马丁网格：添加 martingale_increment
     if 'martingale_increment' in grid_config:

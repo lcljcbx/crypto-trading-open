@@ -1,0 +1,455 @@
+2026-01-01 21:52:03,195 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-01 21:52:05,190 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-01 21:52:05,191 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-01 21:53:20,579 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-01 21:53:20,580 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-01 21:53:20,580 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-01 21:53:20,581 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-01 21:53:20,582 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-01 21:53:50,586 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 108秒前, 消息 105秒前
+2026-01-01 21:54:20,588 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 138秒前, 消息 135秒前
+2026-01-01 21:54:35,959 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-01 21:54:35,959 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-01 21:54:35,960 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-01 21:54:35,960 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-01 21:54:40,960 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 启动价格初始化失败：无有效价格
+2026-01-01 21:54:40,985 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-01 21:54:40,985 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-01 21:54:41,334 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-01 21:54:41,335 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-01 21:54:42,665 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-01 21:54:42,665 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-01 21:54:42,670 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-01 21:58:58,252 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-01 21:58:59,371 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-01 21:58:59,372 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-01 21:59:48,355 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-01 21:59:49,598 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-01 21:59:49,599 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-01 22:08:23,546 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-01 22:08:26,485 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-01 22:08:26,485 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-01 22:09:44,839 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-01 22:09:44,840 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-01 22:09:44,841 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-01 22:09:44,841 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-01 22:09:44,842 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-01 22:10:14,849 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 113秒前, 消息 108秒前
+2026-01-01 22:10:44,855 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 143秒前, 消息 138秒前
+2026-01-01 22:11:00,142 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-01 22:11:00,143 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-01 22:11:00,143 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-01 22:11:00,143 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-01 22:11:03,067 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 启动价格初始化失败：无有效价格
+2026-01-01 22:11:03,075 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-01 22:11:03,075 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-01 22:11:04,358 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 开始批量下单: 4个订单
+2026-01-01 22:11:04,358 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 处理第1/1批订单 (4个订单)
+2026-01-01 22:11:04,359 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,359 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,360 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,360 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,360 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,360 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,360 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,360 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:04,361 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 第1批完成: 成功0/4个，总进度: 0/4
+2026-01-01 22:11:04,361 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 检测到4个失败订单，开始重试...
+2026-01-01 22:11:04,361 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第1次重试: 4个订单
+2026-01-01 22:11:05,363 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:05,364 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:05,364 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:05,364 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:05,365 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/4个，剩余失败4个
+2026-01-01 22:11:06,366 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第2次重试: 4个订单
+2026-01-01 22:11:07,369 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,370 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,370 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,370 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,370 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/4个，剩余失败4个
+2026-01-01 22:11:07,371 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 批量下单完成: 成功0/4个 (0.0%), 最终失败4个
+2026-01-01 22:11:07,371 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 1, buy 0.00100@86000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,371 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 2, buy 0.00100@87000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,371 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 3, buy 0.00100@88000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,371 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 4, buy 0.00100@89000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-01 22:11:07,371 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 正在同步订单状态，检测立即成交的订单...
+2026-01-01 22:11:10,375 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存为空，使用配置区间中间价作为兜底: 88000.0
+2026-01-01 22:11:10,375 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已启动
+2026-01-01 22:11:10,376 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查已启动：间隔=600秒
+2026-01-01 22:11:10,379 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 订单健康检查循环已启动（使用新模块）
+2026-01-01 22:11:14,858 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 173秒前, 消息 168秒前
+2026-01-01 22:11:30,843 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-01 22:11:44,862 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 203秒前, 消息 198秒前
+2026-01-01 22:12:01,510 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-01 22:12:10,382 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=1767276730秒, 距上次订单成交=1767276730.4秒, 配置间隔=600秒
+2026-01-01 22:12:10,383 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-01 22:12:10,383 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-01 22:12:10,651 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 60秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-01 22:12:10,715 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=0个, 持仓=0.0
+2026-01-01 22:12:11,228 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-01 22:12:11,479 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=0个, 持仓=0.0
+2026-01-01 22:12:11,981 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-01 22:12:13,297 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=0个, 持仓=0.0
+2026-01-01 22:12:13,297 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-01 22:12:13,298 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=0个, 持仓=0.0, 数据一致且稳定
+2026-01-01 22:12:13,298 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-01 22:12:13,299 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-01 22:12:14,865 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 233秒前, 消息 228秒前
+2026-01-01 22:12:33,264 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-01 22:12:44,880 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 263秒前, 消息 258秒前
+2026-01-01 22:13:04,961 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-01 22:13:10,791 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 120秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-01 22:13:14,894 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 293秒前, 消息 288秒前
+2026-01-01 22:13:35,636 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-01 22:13:44,896 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 323秒前, 消息 318秒前
+2026-01-01 22:14:10,892 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 181秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-01 22:14:13,408 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-01 22:14:14,902 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 353秒前, 消息 348秒前
+2026-01-01 22:14:29,077 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-01 22:14:29,077 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-01 22:14:29,078 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 订单健康检查已停止
+2026-01-01 22:14:29,583 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-01 22:14:29,858 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-01 22:14:29,859 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-03 15:19:42,441 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-03 15:19:44,462 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-03 15:19:44,462 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-03 15:19:44,842 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-03 15:19:44,842 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-03 15:19:44,843 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-03 15:19:44,843 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-03 15:19:44,844 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-03 15:19:45,158 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-03 15:19:45,158 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-03 15:19:45,159 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-03 15:19:45,159 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-03 15:19:45,728 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 启动价格初始化失败：无有效价格
+2026-01-03 15:19:45,736 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-03 15:19:45,736 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-03 15:19:45,977 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 开始批量下单: 4个订单
+2026-01-03 15:19:45,978 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 处理第1/1批订单 (4个订单)
+2026-01-03 15:19:45,978 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,979 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,979 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,979 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,980 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,980 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,980 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,980 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:45,980 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 第1批完成: 成功0/4个，总进度: 0/4
+2026-01-03 15:19:45,981 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 检测到4个失败订单，开始重试...
+2026-01-03 15:19:45,981 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第1次重试: 4个订单
+2026-01-03 15:19:46,983 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:46,984 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:46,985 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:46,985 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:46,986 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/4个，剩余失败4个
+2026-01-03 15:19:47,987 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第2次重试: 4个订单
+2026-01-03 15:19:48,990 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,991 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,992 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,992 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,992 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/4个，剩余失败4个
+2026-01-03 15:19:48,993 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 批量下单完成: 成功0/4个 (0.0%), 最终失败4个
+2026-01-03 15:19:48,993 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 1, buy 0.00100@86000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,993 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 2, buy 0.00100@87000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,994 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 3, buy 0.00100@88000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,994 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 4, buy 0.00100@89000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:19:48,994 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 正在同步订单状态，检测立即成交的订单...
+2026-01-03 15:19:51,998 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存为空，使用配置区间中间价作为兜底: 88000.0
+2026-01-03 15:19:52,000 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已启动
+2026-01-03 15:19:52,000 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查已启动：间隔=600秒
+2026-01-03 15:19:52,002 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 订单健康检查循环已启动（使用新模块）
+2026-01-03 15:20:14,847 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 34秒前, 消息 30秒前
+2026-01-03 15:20:15,622 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:20:44,850 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 64秒前, 消息 60秒前
+2026-01-03 15:20:47,156 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:20:52,003 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=1767424852秒, 距上次订单成交=1767424852.0秒, 配置间隔=600秒
+2026-01-03 15:20:52,004 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 15:20:52,004 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 15:20:52,300 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=0个, 持仓=0.0
+2026-01-03 15:20:52,390 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 60秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:20:52,801 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 15:20:53,098 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=0个, 持仓=0.0
+2026-01-03 15:20:53,600 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 15:20:54,876 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=0个, 持仓=0.0
+2026-01-03 15:20:54,876 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 15:20:54,877 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=0个, 持仓=0.0, 数据一致且稳定
+2026-01-03 15:20:54,877 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 15:20:54,881 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:21:14,853 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 94秒前, 消息 90秒前
+2026-01-03 15:21:44,855 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 124秒前, 消息 120秒前
+2026-01-03 15:21:52,584 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 121秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:22:12,131 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-03 15:22:12,131 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-03 15:22:12,132 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 订单健康检查已停止
+2026-01-03 15:22:12,613 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:22:13,975 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:22:13,975 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-03 15:24:32,954 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-03 15:24:34,913 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-03 15:24:34,913 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-03 15:24:35,295 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-03 15:24:35,295 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-03 15:24:35,296 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-03 15:24:35,296 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-03 15:24:35,297 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-03 15:24:36,570 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-03 15:24:36,571 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-03 15:24:36,571 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-03 15:24:36,571 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-03 15:24:37,065 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 启动价格初始化失败：无有效价格
+2026-01-03 15:24:37,070 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-03 15:24:37,070 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-03 15:24:37,381 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 开始批量下单: 5个订单
+2026-01-03 15:24:37,381 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 处理第1/1批订单 (5个订单)
+2026-01-03 15:24:37,382 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,382 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,383 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,383 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,383 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,383 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,384 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,384 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,384 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,384 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:37,385 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 第1批完成: 成功0/5个，总进度: 0/5
+2026-01-03 15:24:37,385 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 检测到5个失败订单，开始重试...
+2026-01-03 15:24:37,385 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第1次重试: 5个订单
+2026-01-03 15:24:38,387 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:38,388 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:38,388 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:38,389 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:38,389 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:38,389 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/5个，剩余失败5个
+2026-01-03 15:24:39,391 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第2次重试: 5个订单
+2026-01-03 15:24:40,394 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,395 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,395 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,396 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,396 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,397 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/5个，剩余失败5个
+2026-01-03 15:24:40,397 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 批量下单完成: 成功0/5个 (0.0%), 最终失败5个
+2026-01-03 15:24:40,398 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 1, buy 0.00200@86000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,398 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 2, buy 0.00200@87000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,398 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 3, buy 0.00200@88000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,398 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 4, buy 0.00200@89000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,399 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 5, buy 0.00200@90000.0, 错误: create_order() got an unexpected keyword argument 'batch_mode'
+2026-01-03 15:24:40,399 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 正在同步订单状态，检测立即成交的订单...
+2026-01-03 15:24:43,404 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存为空，使用配置区间中间价作为兜底: 88500.0
+2026-01-03 15:24:43,405 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已启动
+2026-01-03 15:24:43,405 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查已启动：间隔=600秒
+2026-01-03 15:24:43,407 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 订单健康检查循环已启动（使用新模块）
+2026-01-03 15:25:05,300 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 34秒前, 消息 30秒前
+2026-01-03 15:25:08,222 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:25:35,304 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 64秒前, 消息 60秒前
+2026-01-03 15:25:39,812 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:25:43,410 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=1767425143秒, 距上次订单成交=1767425143.4秒, 配置间隔=600秒
+2026-01-03 15:25:43,410 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 15:25:43,411 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 15:25:43,425 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 60秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:25:43,694 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=0个, 持仓=0.0
+2026-01-03 15:25:44,196 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 15:25:44,421 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=0个, 持仓=0.0
+2026-01-03 15:25:44,923 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 15:25:46,150 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=0个, 持仓=0.0
+2026-01-03 15:25:46,151 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 15:25:46,151 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=0个, 持仓=0.0, 数据一致且稳定
+2026-01-03 15:25:46,152 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 15:25:46,158 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:26:05,319 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 94秒前, 消息 90秒前
+2026-01-03 15:26:11,701 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:26:35,338 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 124秒前, 消息 120秒前
+2026-01-03 15:26:43,680 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 120秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:26:44,331 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:27:05,342 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 154秒前, 消息 150秒前
+2026-01-03 15:27:16,813 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:27:35,356 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 184秒前, 消息 180秒前
+2026-01-03 15:27:43,958 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 181秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:27:47,471 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:28:05,358 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 214秒前, 消息 210秒前
+2026-01-03 15:28:17,980 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:28:35,361 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 244秒前, 消息 240秒前
+2026-01-03 15:28:44,277 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 241秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:28:49,527 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:29:05,363 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 274秒前, 消息 270秒前
+2026-01-03 15:29:20,246 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:29:35,366 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 304秒前, 消息 300秒前
+2026-01-03 15:29:44,730 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 301秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:29:50,754 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:30:05,368 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 334秒前, 消息 330秒前
+2026-01-03 15:30:23,379 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:30:35,372 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 364秒前, 消息 360秒前
+2026-01-03 15:30:45,204 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 362秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:30:53,913 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:31:05,375 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 394秒前, 消息 390秒前
+2026-01-03 15:31:25,585 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:31:35,377 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 424秒前, 消息 420秒前
+2026-01-03 15:31:45,552 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 422秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:31:56,109 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:32:05,380 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 454秒前, 消息 450秒前
+2026-01-03 15:32:26,792 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:32:35,383 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 484秒前, 消息 480秒前
+2026-01-03 15:32:45,874 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 482秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:32:57,431 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:33:05,386 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 514秒前, 消息 510秒前
+2026-01-03 15:33:31,110 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:33:35,389 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 544秒前, 消息 540秒前
+2026-01-03 15:33:46,246 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 543秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:34:01,917 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:34:05,392 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 574秒前, 消息 570秒前
+2026-01-03 15:34:33,556 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:34:35,395 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - ❌ WebSocket心跳超时（604秒未更新），切换到REST轮询模式
+2026-01-03 15:34:35,396 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 最后心跳时间: 2026-01-03 15:24:31
+2026-01-03 15:34:35,397 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 最后消息时间: 2026-01-03 15:24:34
+2026-01-03 15:34:35,397 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 当前挂单数量: 0
+2026-01-03 15:34:46,254 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 603秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:35:04,227 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:35:05,425 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 尝试恢复WebSocket监控...
+2026-01-03 15:35:05,864 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ WebSocket监控已恢复！切换回WebSocket模式
+2026-01-03 15:35:05,864 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-03 15:35:18,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-03 15:35:18,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-03 15:35:18,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 订单健康检查已停止
+2026-01-03 15:35:19,156 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:35:20,373 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:35:20,373 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-03 15:35:23,630 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-03 15:35:29,315 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-03 15:35:29,316 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-03 15:35:30,608 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-03 15:35:30,608 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-03 15:35:30,608 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-03 15:35:30,608 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-03 15:35:30,609 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-03 15:35:30,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-03 15:35:30,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-03 15:35:30,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-03 15:35:30,873 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-03 15:35:31,368 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 启动价格初始化失败：无有效价格
+2026-01-03 15:35:31,374 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-03 15:35:31,374 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-03 15:35:31,626 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 开始批量下单: 5个订单
+2026-01-03 15:35:31,626 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 处理第1/1批订单 (5个订单)
+2026-01-03 15:35:31,990 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:32,021 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:32,075 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:32,107 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,023 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,024 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,024 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,024 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,025 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,025 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:33,025 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 第1批完成: 成功0/5个，总进度: 0/5
+2026-01-03 15:35:33,025 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 检测到5个失败订单，开始重试...
+2026-01-03 15:35:33,025 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第1次重试: 5个订单
+2026-01-03 15:35:34,479 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:34,482 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:34,524 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:34,569 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:35,484 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:35,485 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/5个，剩余失败5个
+2026-01-03 15:35:36,487 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第2次重试: 5个订单
+2026-01-03 15:35:37,753 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:37,792 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:37,833 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:38,878 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:35:39,507 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-03 15:35:39,507 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-03 15:35:41,661 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:35:41,757 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:35:41,758 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-03 15:36:55,565 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-03 15:36:57,319 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 连接到交易所: backpack
+2026-01-03 15:36:57,320 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-03 15:36:57,716 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-03 15:36:57,716 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-03 15:36:57,716 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-03 15:36:57,716 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-03 15:36:57,718 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-03 15:36:57,962 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-03 15:36:57,962 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-03 15:36:57,962 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-03 15:36:57,962 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-03 15:36:58,787 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 启动价格初始化失败：无有效价格
+2026-01-03 15:36:58,793 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-03 15:36:58,793 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-03 15:36:58,991 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 开始批量下单: 5个订单
+2026-01-03 15:36:58,991 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 处理第1/1批订单 (5个订单)
+2026-01-03 15:36:59,333 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,455 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,457 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,475 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,492 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,493 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,493 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,493 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,494 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,494 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:36:59,494 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 第1批完成: 成功0/5个，总进度: 0/5
+2026-01-03 15:36:59,494 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 检测到5个失败订单，开始重试...
+2026-01-03 15:36:59,494 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第1次重试: 5个订单
+2026-01-03 15:37:00,903 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:00,911 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:00,954 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:01,868 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:02,855 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:02,856 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/5个，剩余失败5个
+2026-01-03 15:37:03,858 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 第2次重试: 5个订单
+2026-01-03 15:37:05,258 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:05,394 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:06,173 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:06,320 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,299 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 下单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,300 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 重试结果: 成功0/5个，剩余失败5个
+2026-01-03 15:37:07,300 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 批量下单完成: 成功0/5个 (0.0%), 最终失败5个
+2026-01-03 15:37:07,300 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 1, buy 0.00200@86000.0, 错误: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,301 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 2, buy 0.00200@87000.0, 错误: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,301 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 3, buy 0.00200@88000.0, 错误: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,301 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 4, buy 0.00200@89000.0, 错误: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,301 - core.services.grid.implementations.grid_engine_impl - ERROR - error:116 - 订单最终失败: Grid 5, buy 0.00200@90000.0, 错误: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:37:07,301 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 正在同步订单状态，检测立即成交的订单...
+2026-01-03 15:37:10,304 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存为空，使用配置区间中间价作为兜底: 88500.0
+2026-01-03 15:37:10,305 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已启动
+2026-01-03 15:37:10,305 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查已启动：间隔=600秒
+2026-01-03 15:37:10,307 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 订单健康检查循环已启动（使用新模块）
+2026-01-03 15:37:27,721 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 33秒前, 消息 30秒前
+2026-01-03 15:37:29,504 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:37:57,725 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 63秒前, 消息 60秒前
+2026-01-03 15:38:00,060 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:38:10,309 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=1767425890秒, 距上次订单成交=1767425890.3秒, 配置间隔=600秒
+2026-01-03 15:38:10,310 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 15:38:10,311 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 15:38:10,627 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=0个, 持仓=0.0
+2026-01-03 15:38:10,726 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 60秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:38:11,129 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 15:38:12,355 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=0个, 持仓=0.0
+2026-01-03 15:38:12,857 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 15:38:13,050 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=0个, 持仓=0.0
+2026-01-03 15:38:13,050 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 15:38:13,051 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=0个, 持仓=0.0, 数据一致且稳定
+2026-01-03 15:38:13,051 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 15:38:13,053 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:38:27,748 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 93秒前, 消息 90秒前
+2026-01-03 15:38:30,592 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:38:57,762 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 123秒前, 消息 120秒前
+2026-01-03 15:39:02,298 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:39:10,927 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 121秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:39:27,767 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 153秒前, 消息 150秒前
+2026-01-03 15:39:33,913 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:39:57,771 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 183秒前, 消息 180秒前
+2026-01-03 15:40:04,567 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:40:11,124 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 181秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:40:27,775 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 213秒前, 消息 210秒前
+2026-01-03 15:40:34,998 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:40:57,779 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 243秒前, 消息 240秒前
+2026-01-03 15:41:06,490 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:41:11,608 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 241秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:41:27,782 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 273秒前, 消息 270秒前
+2026-01-03 15:41:38,110 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:41:57,785 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 303秒前, 消息 300秒前
+2026-01-03 15:42:08,694 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:42:11,999 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 302秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:42:27,788 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 333秒前, 消息 330秒前
+2026-01-03 15:42:40,232 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格

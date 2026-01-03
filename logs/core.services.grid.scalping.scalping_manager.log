@@ -1,0 +1,2 @@
+2026-01-01 21:52:03,197 - core.services.grid.scalping.scalping_manager - INFO - info:102 - 剥头皮管理器初始化（常规模式）: 触发阈值=40% (第120格), 止盈网格数=2
+2026-01-01 21:58:58,255 - core.services.grid.scalping.scalping_manager - INFO - info:102 - 剥头皮管理器初始化（常规模式）: 触发阈值=40% (第120格), 止盈网格数=2

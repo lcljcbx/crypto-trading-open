@@ -167,7 +167,11 @@ class BackpackWebSocket(BackpackBase):
             api_url = "https://api.backpack.exchange/api/v1/status"  # 尝试status端点
             timeout = aiohttp.ClientTimeout(total=8)
 
-            async with aiohttp.ClientSession(timeout=timeout) as session:
+            # 创建临时 session，支持代理配置
+            async with aiohttp.ClientSession(
+                timeout=timeout,
+                trust_env=True  # 自动从环境变量读取代理
+            ) as session:
                 async with session.get(api_url) as response:
                     return response.status in [200, 404]  # 404也说明服务器可达
 
@@ -256,7 +260,12 @@ class BackpackWebSocket(BackpackBase):
                 
                 # 使用aiohttp建立WebSocket连接
                 if not hasattr(self, '_session') or self._session is None or (self._session and self._session.closed):
-                    self._session = aiohttp.ClientSession()
+                    # 创建 session，支持代理配置
+                    # trust_env=True 会自动从环境变量读取 HTTP_PROXY/HTTPS_PROXY
+                    self._session = aiohttp.ClientSession(
+                        trust_env=True,  # 自动从环境变量读取代理
+                        timeout=aiohttp.ClientTimeout(total=30)
+                    )
                 self._ws_connection = await self._session.ws_connect(self.ws_url)
 
                 if self.logger:

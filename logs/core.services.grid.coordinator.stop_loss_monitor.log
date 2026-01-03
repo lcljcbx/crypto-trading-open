@@ -1,0 +1,11 @@
+2026-01-01 21:52:03,203 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=95.0%, 脱离超时=600秒, APR阈值=45.0%
+2026-01-01 21:58:58,261 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=95.0%, 脱离超时=600秒, APR阈值=45.0%
+2026-01-01 22:08:23,551 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=100.0%, 脱离超时=300秒, APR阈值=50.0%
+2026-01-01 22:11:11,063 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - ⏸️  止损保护未启用，跳过监控
+2026-01-03 15:19:42,449 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=100.0%, 脱离超时=300秒, APR阈值=50.0%
+2026-01-03 15:19:52,566 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - ⏸️  止损保护未启用，跳过监控
+2026-01-03 15:24:32,958 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=100.0%, 脱离超时=300秒, APR阈值=50.0%
+2026-01-03 15:24:43,819 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - ⏸️  止损保护未启用，跳过监控
+2026-01-03 15:35:23,633 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=100.0%, 脱离超时=300秒, APR阈值=50.0%
+2026-01-03 15:36:55,572 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - 🛑 止损保护监控器初始化: 启用=False, 触发百分比=100.0%, 脱离超时=300秒, APR阈值=50.0%
+2026-01-03 15:37:10,655 - core.services.grid.coordinator.stop_loss_monitor - INFO - info:102 - ⏸️  止损保护未启用，跳过监控

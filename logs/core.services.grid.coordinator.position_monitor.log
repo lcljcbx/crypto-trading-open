@@ -1,0 +1,49 @@
+2026-01-01 21:52:03,202 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-01 21:58:58,260 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-01 22:08:23,549 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-01 22:11:03,078 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 进入初始化阶段: 持续60秒, 期间不检测持仓变化异常
+2026-01-01 22:11:03,079 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 正在同步初始持仓数据（REST API）...
+2026-01-01 22:11:04,357 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 REST查询(合约): 当前无持仓
+2026-01-01 22:11:04,358 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 初始持仓同步完成（REST）
+2026-01-01 22:11:04,358 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已启动（纯REST API，1秒高频查询，适应剧烈波动）
+2026-01-01 22:11:04,359 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST持仓查询循环已启动: 间隔=60秒
+2026-01-01 22:14:29,075 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已取消
+2026-01-01 22:14:29,076 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已退出
+2026-01-01 22:14:29,079 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已停止
+2026-01-03 15:19:42,446 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-03 15:19:45,741 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 进入初始化阶段: 持续60秒, 期间不检测持仓变化异常
+2026-01-03 15:19:45,741 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 正在同步初始持仓数据（REST API）...
+2026-01-03 15:19:45,975 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 REST查询(合约): 当前无持仓
+2026-01-03 15:19:45,976 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 初始持仓同步完成（REST）
+2026-01-03 15:19:45,976 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已启动（纯REST API，1秒高频查询，适应剧烈波动）
+2026-01-03 15:19:45,978 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST持仓查询循环已启动: 间隔=60秒
+2026-01-03 15:22:12,130 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已取消
+2026-01-03 15:22:12,131 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已退出
+2026-01-03 15:22:12,134 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已停止
+2026-01-03 15:24:32,956 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-03 15:24:37,073 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 进入初始化阶段: 持续60秒, 期间不检测持仓变化异常
+2026-01-03 15:24:37,073 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 正在同步初始持仓数据（REST API）...
+2026-01-03 15:24:37,380 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 REST查询(合约): 当前无持仓
+2026-01-03 15:24:37,380 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 初始持仓同步完成（REST）
+2026-01-03 15:24:37,381 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已启动（纯REST API，1秒高频查询，适应剧烈波动）
+2026-01-03 15:24:37,382 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST持仓查询循环已启动: 间隔=60秒
+2026-01-03 15:35:18,872 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已取消
+2026-01-03 15:35:18,873 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已退出
+2026-01-03 15:35:18,874 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已停止
+2026-01-03 15:35:23,632 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-03 15:35:31,376 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 进入初始化阶段: 持续60秒, 期间不检测持仓变化异常
+2026-01-03 15:35:31,376 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 正在同步初始持仓数据（REST API）...
+2026-01-03 15:35:31,624 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 REST查询(合约): 当前无持仓
+2026-01-03 15:35:31,625 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 初始持仓同步完成（REST）
+2026-01-03 15:35:31,625 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已启动（纯REST API，1秒高频查询，适应剧烈波动）
+2026-01-03 15:35:31,627 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST持仓查询循环已启动: 间隔=60秒
+2026-01-03 15:35:39,506 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已取消
+2026-01-03 15:35:39,507 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST查询循环已退出
+2026-01-03 15:35:39,509 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已停止
+2026-01-03 15:36:55,568 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ⚠️  配置的REST查询间隔(1秒)过短，已自动调整为60秒（优先使用WebSocket缓存）
+2026-01-03 15:36:58,794 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 进入初始化阶段: 持续60秒, 期间不检测持仓变化异常
+2026-01-03 15:36:58,795 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 正在同步初始持仓数据（REST API）...
+2026-01-03 15:36:58,990 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 📊 REST查询(合约): 当前无持仓
+2026-01-03 15:36:58,990 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 初始持仓同步完成（REST）
+2026-01-03 15:36:58,991 - core.services.grid.coordinator.position_monitor - INFO - info:102 - ✅ 持仓监控已启动（纯REST API，1秒高频查询，适应剧烈波动）
+2026-01-03 15:36:58,991 - core.services.grid.coordinator.position_monitor - INFO - info:102 - 🔄 REST持仓查询循环已启动: 间隔=60秒

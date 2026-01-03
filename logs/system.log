@@ -1,0 +1,197 @@
+2026-01-01 21:51:40,731 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-01 21:51:40,768 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-01 21:52:02,571 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-01 21:52:02,595 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-01 21:52:02,609 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-01 21:54:40,985 - system - ERROR - error:116 - ❌ 系统错误: 价格缓存为空且无配置区间，请检查WS连接和REST更新任务。系统启动时应等待WS首次价格推送或REST更新完成。
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/run_grid_trading.py", line 602, in main
+    await coordinator.start()
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/coordinator/grid_coordinator.py", line 1045, in start
+    await self.initialize()
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/coordinator/grid_coordinator.py", line 257, in initialize
+    current_price = await self.engine.get_current_price()
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/grid_engine_impl.py", line 714, in get_current_price
+    raise ValueError(
+ValueError: 价格缓存为空且无配置区间，请检查WS连接和REST更新任务。系统启动时应等待WS首次价格推送或REST更新完成。
+2026-01-01 21:58:51,483 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-01 21:58:51,515 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-01 21:58:53,004 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-01 21:58:53,005 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-01 21:58:53,021 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-01 21:58:53,021 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-01 21:58:53,022 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-01 21:58:53,034 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-01 22:00:05,227 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-01 22:00:05,253 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-01 22:00:06,674 - system - ERROR - error:116 - ❌ 系统错误: 'price_range'
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/run_grid_trading.py", line 472, in main
+    grid_config = create_grid_config(config_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/run_grid_trading.py", line 135, in create_grid_config
+    str(grid_config['price_range']['lower_price']))
+KeyError: 'price_range'
+2026-01-01 22:04:47,202 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-01 22:04:47,236 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-01 22:04:48,789 - system - ERROR - error:116 - ❌ 系统错误: 'price_range'
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/run_grid_trading.py", line 472, in main
+    grid_config = create_grid_config(config_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/run_grid_trading.py", line 135, in create_grid_config
+    str(grid_config['price_range']['lower_price']))
+KeyError: 'price_range'
+2026-01-01 22:08:20,429 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-01 22:08:20,462 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-01 22:08:21,977 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-01 22:08:21,994 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-01 22:08:21,994 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-01 22:08:21,994 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-01 22:08:21,995 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-01 22:08:22,008 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-03 15:19:38,750 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-03 15:19:38,837 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:19:40,771 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:19:40,772 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:19:40,788 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-03 15:19:40,788 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-03 15:19:40,788 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:19:40,789 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-03 15:19:40,802 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-03 15:24:29,764 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-03 15:24:29,797 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-03 15:24:31,353 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:24:31,353 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:24:31,354 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:24:31,370 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-03 15:24:31,370 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:24:31,371 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-03 15:24:31,384 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-03 15:35:21,926 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-03 15:35:21,956 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-03 15:35:23,424 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:35:23,424 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:35:23,424 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:35:23,425 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:35:23,425 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:35:23,425 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:35:23,425 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:35:23,425 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:35:23,425 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:35:23,441 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-03 15:35:23,441 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-03 15:35:23,441 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:35:23,441 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:35:23,442 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-03 15:35:23,455 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-03 15:36:53,552 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-03 15:36:53,586 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:36:55,145 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:36:55,162 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-03 15:36:55,176 - system - INFO - info:102 - 创建交易所适配器实例: backpack

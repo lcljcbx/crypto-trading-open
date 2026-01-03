@@ -1,0 +1,100 @@
+2026-01-01 21:54:40,984 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-01 21:54:40,984 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-01 21:54:40,984 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-01 21:54:40,985 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=200, 反手距离=1格, 市场类型=perp
+2026-01-01 22:11:03,073 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-01 22:11:03,074 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-01 22:11:03,074 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-01 22:11:03,075 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=4, 反手距离=1格, 市场类型=perp
+2026-01-01 22:12:13,298 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-01 22:12:13]
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-01 22:12:13,299 - core.services.grid.implementations.order_health_checker - WARNING - warning:109 - ⚠️ 未获取到任何挂单，跳过健康检查
+2026-01-03 15:19:45,735 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-03 15:19:45,735 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-03 15:19:45,736 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-03 15:19:45,736 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=4, 反手距离=1格, 市场类型=perp
+2026-01-03 15:20:54,878 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 15:20:54,878 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 15:20:54,879 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 15:20:54,879 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:20:54,879 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 15:20:54,879 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:20:54,879 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 15:20:54,879 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 15:20:54,880 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:20:54,880 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:20:54,880 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 15:20:54]
+2026-01-03 15:20:54,880 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:20:54,880 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 15:20:54,880 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:20:54,881 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:20:54,881 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 15:20:54,881 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:20:54,881 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 15:20:54,881 - core.services.grid.implementations.order_health_checker - WARNING - warning:109 - ⚠️ 未获取到任何挂单，跳过健康检查
+2026-01-03 15:24:37,069 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-03 15:24:37,069 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-03 15:24:37,069 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-03 15:24:37,069 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=5, 反手距离=1格, 市场类型=perp
+2026-01-03 15:25:46,152 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 15:25:46,153 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 15:25:46,153 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 15:25:46,153 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:25:46,154 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 15:25:46,154 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:25:46,154 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 15:25:46,155 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 15:25:46,155 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:25:46,155 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:25:46,156 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 15:25:46]
+2026-01-03 15:25:46,156 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:25:46,156 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 15:25:46,157 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:25:46,157 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:25:46,157 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 15:25:46,158 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:25:46,158 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 15:25:46,158 - core.services.grid.implementations.order_health_checker - WARNING - warning:109 - ⚠️ 未获取到任何挂单，跳过健康检查
+2026-01-03 15:35:31,373 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-03 15:35:31,373 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-03 15:35:31,374 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-03 15:35:31,374 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=5, 反手距离=1格, 市场类型=perp
+2026-01-03 15:36:58,792 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-03 15:36:58,792 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-03 15:36:58,792 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-03 15:36:58,793 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=5, 反手距离=1格, 市场类型=perp
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:38:13,051 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 15:38:13]
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:38:13,052 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 15:38:13,053 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:38:13,053 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 15:38:13,053 - core.services.grid.implementations.order_health_checker - WARNING - warning:109 - ⚠️ 未获取到任何挂单，跳过健康检查

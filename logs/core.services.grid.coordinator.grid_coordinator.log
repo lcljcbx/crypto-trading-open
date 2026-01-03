@@ -1,0 +1,185 @@
+2026-01-01 21:52:03,198 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 剥头皮管理器已启用
+2026-01-01 21:52:03,199 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 价格锁定管理器已启用
+2026-01-01 21:52:03,204 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=follow_long, mode=Martingale, range=[None, None], interval=100, grids=200)
+2026-01-01 21:52:03,204 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:52:03,205 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-01 21:52:03,205 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:52:03,205 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-01 21:52:04,501 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-01 21:52:04,501 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-01 21:52:04,787 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-01 21:52:04,787 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:52:04,787 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-01 21:52:04,787 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:52:04,788 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-01 21:52:04,788 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-01 21:54:40,985 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 执行引擎初始化完成
+2026-01-01 21:54:40,985 - core.services.grid.coordinator.grid_coordinator - ERROR - error:116 - ❌ 网格系统初始化失败: 价格缓存为空且无配置区间，请检查WS连接和REST更新任务。系统启动时应等待WS首次价格推送或REST更新完成。
+2026-01-01 21:54:40,989 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🔸 退出清理已禁用，跳过清理流程
+2026-01-01 21:54:41,335 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 取消了0个挂单
+2026-01-01 21:54:42,665 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ⏹️ 网格系统已停止
+2026-01-01 21:58:58,255 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 剥头皮管理器已启用
+2026-01-01 21:58:58,257 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 价格锁定管理器已启用
+2026-01-01 21:58:58,262 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=follow_long, mode=Martingale, range=[None, None], interval=100, grids=200)
+2026-01-01 21:58:58,262 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:58:58,262 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-01 21:58:58,263 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:58:58,263 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-01 21:58:58,660 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-01 21:58:58,660 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-01 21:58:59,080 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-01 21:58:59,081 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:58:59,081 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-01 21:58:59,081 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 21:58:59,082 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-01 21:58:59,082 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-01 21:59:46,978 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🔸 退出清理已禁用，跳过清理流程
+2026-01-01 21:59:48,356 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 取消了0个挂单
+2026-01-01 21:59:49,599 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ⏹️ 网格系统已停止
+2026-01-01 22:08:23,552 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=long, mode=Normal, range=[86000.0, 90000.0], interval=1000, grids=4)
+2026-01-01 22:08:23,553 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 22:08:23,553 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-01 22:08:23,553 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 22:08:23,553 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-01 22:08:25,911 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-01 22:08:25,911 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-01 22:08:26,182 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-01 22:08:26,182 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 22:08:26,183 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-01 22:08:26,183 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-01 22:08:26,184 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-01 22:08:26,184 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-01 22:11:03,075 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 执行引擎初始化完成
+2026-01-01 22:11:03,076 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 网格状态初始化完成，共4个网格层级
+2026-01-01 22:11:03,078 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 策略初始化完成，生成4个初始订单，覆盖价格区间 $86,000.00 - $90,000.00
+2026-01-01 22:11:03,078 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 订单更新订阅完成
+2026-01-01 22:11:03,078 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 循环统计开始时间: 2026-01-01 22:11:03
+2026-01-01 22:11:04,358 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始批量挂单，共4个订单...
+2026-01-01 22:11:10,373 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始添加0个订单到状态追踪...
+2026-01-01 22:11:10,373 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 成功挂出0/4个订单，覆盖整个价格区间
+2026-01-01 22:11:10,374 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 订单添加统计: 新增=0, 跳过=0 (已存在或已成交)
+2026-01-01 22:11:10,374 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 状态统计: 买单=0, 卖单=0, 活跃订单=0
+2026-01-01 22:11:10,375 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 网格启动价格: $88,000.00
+2026-01-01 22:11:10,375 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格系统初始化完成，所有订单已就位，等待成交
+2026-01-01 22:11:10,376 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 正在同步初始持仓数据...
+2026-01-01 22:11:10,734 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📡 正在订阅WebSocket持仓流...
+2026-01-01 22:11:10,735 - core.services.grid.coordinator.grid_coordinator - WARNING - warning:109 - ⚠️  WebSocket持仓流订阅失败: 'BackpackAdapter' object has no attribute 'subscribe_positions'，将使用REST API备用
+2026-01-01 22:11:11,063 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🚀 网格系统已启动
+2026-01-01 22:14:29,078 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🔸 退出清理已禁用，跳过清理流程
+2026-01-01 22:14:29,583 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 取消了0个挂单
+2026-01-01 22:14:29,859 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ⏹️ 网格系统已停止
+2026-01-03 15:19:42,450 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=long, mode=Normal, range=[86000.0, 90000.0], interval=1000, grids=4)
+2026-01-03 15:19:42,450 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:19:42,450 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-03 15:19:42,451 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:19:42,451 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-03 15:19:43,815 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-03 15:19:43,815 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-03 15:19:44,164 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-03 15:19:44,165 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:19:44,165 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-03 15:19:44,165 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:19:44,166 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-03 15:19:44,166 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-03 15:19:45,737 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 执行引擎初始化完成
+2026-01-03 15:19:45,737 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 网格状态初始化完成，共4个网格层级
+2026-01-03 15:19:45,740 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 策略初始化完成，生成4个初始订单，覆盖价格区间 $86,000.00 - $90,000.00
+2026-01-03 15:19:45,740 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 订单更新订阅完成
+2026-01-03 15:19:45,740 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 循环统计开始时间: 2026-01-03 15:19:45
+2026-01-03 15:19:45,977 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始批量挂单，共4个订单...
+2026-01-03 15:19:51,996 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始添加0个订单到状态追踪...
+2026-01-03 15:19:51,997 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 成功挂出0/4个订单，覆盖整个价格区间
+2026-01-03 15:19:51,997 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 订单添加统计: 新增=0, 跳过=0 (已存在或已成交)
+2026-01-03 15:19:51,998 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 状态统计: 买单=0, 卖单=0, 活跃订单=0
+2026-01-03 15:19:51,999 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 网格启动价格: $88,000.00
+2026-01-03 15:19:51,999 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格系统初始化完成，所有订单已就位，等待成交
+2026-01-03 15:19:52,000 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 正在同步初始持仓数据...
+2026-01-03 15:19:52,333 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📡 正在订阅WebSocket持仓流...
+2026-01-03 15:19:52,333 - core.services.grid.coordinator.grid_coordinator - WARNING - warning:109 - ⚠️  WebSocket持仓流订阅失败: 'BackpackAdapter' object has no attribute 'subscribe_positions'，将使用REST API备用
+2026-01-03 15:19:52,566 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🚀 网格系统已启动
+2026-01-03 15:22:12,132 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🔸 退出清理已禁用，跳过清理流程
+2026-01-03 15:22:12,614 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 取消了0个挂单
+2026-01-03 15:22:13,975 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ⏹️ 网格系统已停止
+2026-01-03 15:24:32,958 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=long, mode=Normal, range=[86000.0, 91000.0], interval=1000, grids=5)
+2026-01-03 15:24:32,959 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:24:32,959 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-03 15:24:32,959 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:24:32,959 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-03 15:24:34,264 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-03 15:24:34,264 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-03 15:24:34,554 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-03 15:24:34,555 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:24:34,555 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-03 15:24:34,556 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:24:34,556 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-03 15:24:34,556 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-03 15:24:37,070 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 执行引擎初始化完成
+2026-01-03 15:24:37,070 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 网格状态初始化完成，共5个网格层级
+2026-01-03 15:24:37,072 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 策略初始化完成，生成5个初始订单，覆盖价格区间 $86,000.00 - $91,000.00
+2026-01-03 15:24:37,072 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 订单更新订阅完成
+2026-01-03 15:24:37,072 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 循环统计开始时间: 2026-01-03 15:24:37
+2026-01-03 15:24:37,381 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始批量挂单，共5个订单...
+2026-01-03 15:24:43,401 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始添加0个订单到状态追踪...
+2026-01-03 15:24:43,403 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 成功挂出0/5个订单，覆盖整个价格区间
+2026-01-03 15:24:43,403 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 订单添加统计: 新增=0, 跳过=0 (已存在或已成交)
+2026-01-03 15:24:43,403 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 状态统计: 买单=0, 卖单=0, 活跃订单=0
+2026-01-03 15:24:43,404 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 网格启动价格: $88,500.00
+2026-01-03 15:24:43,404 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格系统初始化完成，所有订单已就位，等待成交
+2026-01-03 15:24:43,405 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 正在同步初始持仓数据...
+2026-01-03 15:24:43,710 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📡 正在订阅WebSocket持仓流...
+2026-01-03 15:24:43,710 - core.services.grid.coordinator.grid_coordinator - WARNING - warning:109 - ⚠️  WebSocket持仓流订阅失败: 'BackpackAdapter' object has no attribute 'subscribe_positions'，将使用REST API备用
+2026-01-03 15:24:43,819 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🚀 网格系统已启动
+2026-01-03 15:35:18,873 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🔸 退出清理已禁用，跳过清理流程
+2026-01-03 15:35:19,156 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 取消了0个挂单
+2026-01-03 15:35:20,374 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ⏹️ 网格系统已停止
+2026-01-03 15:35:23,634 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=long, mode=Normal, range=[86000.0, 91000.0], interval=1000, grids=5)
+2026-01-03 15:35:23,634 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:35:23,634 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-03 15:35:23,634 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:35:23,634 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-03 15:35:26,861 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-03 15:35:26,862 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-03 15:35:28,093 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-03 15:35:28,094 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:35:28,094 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-03 15:35:28,094 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:35:28,094 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-03 15:35:28,094 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-03 15:35:31,374 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 执行引擎初始化完成
+2026-01-03 15:35:31,374 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 网格状态初始化完成，共5个网格层级
+2026-01-03 15:35:31,375 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 策略初始化完成，生成5个初始订单，覆盖价格区间 $86,000.00 - $91,000.00
+2026-01-03 15:35:31,375 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 订单更新订阅完成
+2026-01-03 15:35:31,376 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 循环统计开始时间: 2026-01-03 15:35:31
+2026-01-03 15:35:31,626 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始批量挂单，共5个订单...
+2026-01-03 15:35:39,508 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🔸 退出清理已禁用，跳过清理流程
+2026-01-03 15:35:41,661 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 取消了0个挂单
+2026-01-03 15:35:41,758 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ⏹️ 网格系统已停止
+2026-01-03 15:36:55,572 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格协调器初始化完成（模块化版本）: GridConfig(exchange=backpack, symbol=BTC_USDC_PERP, type=long, mode=Normal, range=[86000.0, 91000.0], interval=1000, grids=5)
+2026-01-03 15:36:55,572 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:36:55,573 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🧹 启动前清理：正在清理旧订单和持仓...
+2026-01-03 15:36:55,573 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:36:55,573 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📋 步骤1: 正在取消所有旧订单...
+2026-01-03 15:36:56,865 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无旧订单，跳过清理
+2026-01-03 15:36:56,865 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 步骤2: 正在检查持仓...
+2026-01-03 15:36:57,026 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 无持仓，跳过平仓
+2026-01-03 15:36:57,026 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:36:57,027 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 启动前清理完成
+2026-01-03 15:36:57,027 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ================================================================================
+2026-01-03 15:36:57,027 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 
+2026-01-03 15:36:57,028 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始初始化网格系统...
+2026-01-03 15:36:58,793 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 执行引擎初始化完成
+2026-01-03 15:36:58,793 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 网格状态初始化完成，共5个网格层级
+2026-01-03 15:36:58,794 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 策略初始化完成，生成5个初始订单，覆盖价格区间 $86,000.00 - $91,000.00
+2026-01-03 15:36:58,794 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 订单更新订阅完成
+2026-01-03 15:36:58,794 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 循环统计开始时间: 2026-01-03 15:36:58
+2026-01-03 15:36:58,991 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始批量挂单，共5个订单...
+2026-01-03 15:37:10,303 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 开始添加0个订单到状态追踪...
+2026-01-03 15:37:10,303 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 成功挂出0/5个订单，覆盖整个价格区间
+2026-01-03 15:37:10,304 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 订单添加统计: 新增=0, 跳过=0 (已存在或已成交)
+2026-01-03 15:37:10,304 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 状态统计: 买单=0, 卖单=0, 活跃订单=0
+2026-01-03 15:37:10,304 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 网格启动价格: $88,500.00
+2026-01-03 15:37:10,305 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - ✅ 网格系统初始化完成，所有订单已就位，等待成交
+2026-01-03 15:37:10,305 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📊 正在同步初始持仓数据...
+2026-01-03 15:37:10,467 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 📡 正在订阅WebSocket持仓流...
+2026-01-03 15:37:10,467 - core.services.grid.coordinator.grid_coordinator - WARNING - warning:109 - ⚠️  WebSocket持仓流订阅失败: 'BackpackAdapter' object has no attribute 'subscribe_positions'，将使用REST API备用
+2026-01-03 15:37:10,656 - core.services.grid.coordinator.grid_coordinator - INFO - info:102 - 🚀 网格系统已启动

@@ -243,16 +243,24 @@ class GridEngineImpl(IGridEngine):
             # margin_mode: "isolated"=逐仓(1), "cross"=全仓(0)
             margin_mode_value = 1 if self.config.margin_mode.lower() == "isolated" else 0
 
-            exchange_order = await self.exchange.create_order(
-                symbol=self.config.symbol,
-                side=exchange_side,
-                order_type=OrderType.LIMIT,  # 只使用限价单
-                amount=order.amount,
-                price=order.price,
-                # ✅ 传递保证金模式（Lighter必需）
-                params={"margin_mode": margin_mode_value},
-                batch_mode=batch_mode  # 🔥 传递批量模式标志（仅Lighter使用）
-            )
+            # 🔥 检查是否为Lighter交易所（只有Lighter支持batch_mode参数）
+            exchange_id = str(self.config.exchange).lower() if self.config.exchange else ''
+            is_lighter = exchange_id == 'lighter'
+
+            # 🔥 构建create_order参数（只有Lighter才传递batch_mode）
+            create_order_kwargs = {
+                "symbol": self.config.symbol,
+                "side": exchange_side,
+                "order_type": OrderType.LIMIT,  # 只使用限价单
+                "amount": order.amount,
+                "price": order.price,
+                "params": {"margin_mode": margin_mode_value} if is_lighter else None
+            }
+            # 只有Lighter交易所才传递batch_mode参数
+            if is_lighter:
+                create_order_kwargs["batch_mode"] = batch_mode
+
+            exchange_order = await self.exchange.create_order(**create_order_kwargs)
 
             # 🔥 检查返回值是否为None（API调用失败）- 带重试机制
             if exchange_order is None:
@@ -262,15 +270,20 @@ class GridEngineImpl(IGridEngine):
                 await asyncio.sleep(1)  # 等待1秒
 
                 # 重试一次
-                exchange_order = await self.exchange.create_order(
-                    symbol=self.config.symbol,
-                    side=exchange_side,
-                    order_type=OrderType.LIMIT,
-                    amount=order.amount,
-                    price=order.price,
-                    params=None,
-                    batch_mode=batch_mode
-                )
+                # 🔥 构建重试参数（只有Lighter才传递batch_mode和margin_mode）
+                retry_kwargs = {
+                    "symbol": self.config.symbol,
+                    "side": exchange_side,
+                    "order_type": OrderType.LIMIT,
+                    "amount": order.amount,
+                    "price": order.price,
+                    "params": {"margin_mode": margin_mode_value} if is_lighter else None
+                }
+                # 只有Lighter交易所才传递batch_mode参数
+                if is_lighter:
+                    retry_kwargs["batch_mode"] = batch_mode
+                
+                exchange_order = await self.exchange.create_order(**retry_kwargs)
 
                 # 如果重试后仍然为None，则抛出异常
                 if exchange_order is None:

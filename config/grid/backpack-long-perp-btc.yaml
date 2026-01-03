@@ -21,17 +21,17 @@ grid_system:
   # ----------------------------------------------------------------------------
   # 网格类型选择（三选一，其他两个需注释）
   # ----------------------------------------------------------------------------
-  grid_type: "follow_long"         # ✅ 当前：价格移动做多网格
-  # grid_type: "long"              # 📝 备选：固定范围做多网格
+  # grid_type: "follow_long"         # ✅ 当前：价格移动做多网格
+  grid_type: "long"              # 📝 备选：固定范围做多网格
   # grid_type: "martingale_long"   # 📝 备选：固定范围做多马丁网格
   
   # ============================================================================
   # 价格移动网格参数（grid_type = "follow_long" 时生效）
   # ============================================================================
-  follow_grid_count: 200      # 总共200个网格
-  follow_timeout: 1500         # 脱离超时5分钟
-  follow_distance: 2          # 脱离距离2格
-  price_offset_grids: 5       # 🆕 价格偏移网格数（默认0）
+  # follow_grid_count: 200      # 总共200个网格
+  # follow_timeout: 1500         # 脱离超时5分钟
+  # follow_distance: 2          # 脱离距离2格
+  # price_offset_grids: 5       # 🆕 价格偏移网格数（默认0）
   # 说明：调整网格启动时的价格边界位置，让当前价格处于网格内部
   # - 默认值0：以当前价格为边界（旧行为）
   # - 做多网格：当前价格 + 5格 = 上边界，然后向下计算下边界
@@ -45,45 +45,45 @@ grid_system:
   # 固定范围网格参数（grid_type = "long" 或 "martingale_long" 时生效）
   # 需要启用固定范围网格时，取消下面3行注释，并注释掉上面的follow参数
   # ----------------------------------------------------------------------------
-  # lower_price: 1.90          # 📝 网格下限价格
-  # upper_price: 2.30          # 📝 网格上限价格
+  lower_price: 86000.0          # 📝 网格下限价格
+  upper_price: 91000.0          # 📝 网格上限价格
   # # 网格数量会根据 (upper_price - lower_price) / grid_interval 自动计算
   
   # ============================================================================
   # 通用网格参数（所有网格类型都需要）
   # ============================================================================
-  grid_interval: 100        # 每格间隔$80
-  order_amount: 0.0002           # 每格基础数量 0.0003 BTC
+  grid_interval: 1000        # 每格间隔$80
+  order_amount: 0.002           # 每格基础数量 0.0003 BTC
   quantity_precision: 5          # 🔥 BTC数量精度（5位小数，支持0.00001）
   
   # ----------------------------------------------------------------------------
   # 马丁模式参数（grid_type = "martingale_long" 时生效）
   # 需要启用马丁模式时，取消下面1行注释
   # ----------------------------------------------------------------------------
-  martingale_increment: 0.000005  # 📝 马丁递增数量（每格增加0.5 ASTER）
+  # martingale_increment: 0.000005  # 📝 马丁递增数量（每格增加0.5 ASTER）
   #                            #    例如：第1格5.0, 第2格5.5, 第3格6.0...
   
   # 🎯 剥头皮模式配置（第一道防线）
-  scalping_enabled: true               # ✅ 启用剥头皮
-  scalping_trigger_percent: 40         # 🔔 触发阈值90%（从顶部往下跌90%时触发）
-  scalping_take_profit_grids: 2        # 📊 止盈2格（向上2格）
+  # scalping_enabled: false               # ✅ 启用剥头皮
+  # scalping_trigger_percent: 40         # 🔔 触发阈值90%（从顶部往下跌90%时触发）
+  # scalping_take_profit_grids: 2        # 📊 止盈2格（向上2格）
   # 说明：90% = 从Grid 200往下跌到Grid 20（200 - 200*90% = 20）
   
   # 🛡️ 本金保护模式配置（第二道防线）
-  capital_protection_enabled: false     # ✅ 启用本金保护
-  capital_protection_trigger_percent: 30  # 🔔 触发阈值1%（从顶部往下跌1%时触发）
+  # capital_protection_enabled: false     # ✅ 启用本金保护
+  # capital_protection_trigger_percent: 30  # 🔔 触发阈值1%（从顶部往下跌1%时触发）
   # 说明：1% = 从Grid 200往下到Grid 198（200 - 200*1% = 198）
   #      40% = 从Grid 200往下到Grid 120（200 - 200*40% = 120）
   # ⚠️ 测试用可设置1-5%（轻微下跌即触发），实战建议40-50%
   
   # 💰 止盈模式配置（盈利保护）
-  take_profit_enabled: false            # ✅ 启用止盈模式
-  take_profit_percentage: 0.002        # 🎯 止盈阈值0.5%（盈利超过本金0.5%时止盈）
+  # take_profit_enabled: false            # ✅ 启用止盈模式
+  # take_profit_percentage: 0.002        # 🎯 止盈阈值0.5%（盈利超过本金0.5%时止盈）
   
   # 🔒 价格锁定模式配置（智能冻结）
-  price_lock_enabled: true             # ✅ 启用价格锁定模式
-  price_lock_threshold: 125000.0            # 🎯 锁定价格阈值 $2.50（价格向上脱离且>=阈值时锁定）
-  price_lock_start_at_threshold: false  # 🆕 启动时使用阈值作为起点（仅价格移动网格FOLLOW模式生效）
+  # price_lock_enabled: false             # ✅ 启用价格锁定模式
+  # price_lock_threshold: 90001            # 🎯 锁定价格阈值 $2.50（价格向上脱离且>=阈值时锁定）
+  # price_lock_start_at_threshold: false  # 🆕 启动时使用阈值作为起点（仅价格移动网格FOLLOW模式生效）
   
   # 做多网格说明：
   # - 当价格向上脱离网格范围时（盈利方向）
@@ -92,10 +92,10 @@ grid_system:
   # - 价格回到网格范围内时，自动解除冻结
   
   # 🛑 止损保护模式配置（亏损方向脱离保护，优先级最高）
-  stop_loss_protection_enabled: false  # ✅ 启用止损保护模式
-  stop_loss_trigger_percent: 95.0      # 🎯 触发百分比（%）- 从网格顶部往不利方向移动的百分比
-  stop_loss_escape_timeout: 600        # 🔔 脱离超时（秒）- BTC波动较小，设置600秒
-  stop_loss_apr_threshold: 45.0        # 📊 APR阈值（%）- 实时APR>=45%→重置，<45%→停止
+  # stop_loss_protection_enabled: false  # ✅ 启用止损保护模式
+  # stop_loss_trigger_percent: 95.0      # 🎯 触发百分比（%）- 从网格顶部往不利方向移动的百分比
+  # stop_loss_escape_timeout: 600        # 🔔 脱离超时（秒）- BTC波动较小，设置600秒
+  # stop_loss_apr_threshold: 45.0        # 📊 APR阈值（%）- 实时APR>=45%→重置，<45%→停止
   # 说明：
   # - 做多网格：价格跌破下边界且持续600秒 → 触发止损保护
   # - 判断实时循环APR（过去10分钟）：
@@ -104,7 +104,7 @@ grid_system:
   # - 优先级：最高（覆盖本金保护、止盈、价格锁定等所有模式）
   
   # 🎯 反手挂单格子距离配置（利润优化）
-  reverse_order_grid_distance: 1       # 🔥 反手挂单距离（默认1格，可自定义提高利润）
+  # reverse_order_grid_distance: 1       # 🔥 反手挂单距离（默认1格，可自定义提高利润）
   # 说明：成交后反手挂单的格子距离
   # - 默认值1：买单成交@$2.00 → 卖单挂@$2.01（间隔1格）
   # - 设置为2：买单成交@$2.00 → 卖单挂@$2.02（间隔2格，利润提高）

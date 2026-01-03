@@ -1,0 +1,2 @@
+2026-01-01 21:52:03,199 - PriceLockManager - INFO - info:102 - ✅ 价格锁定管理器初始化: 阈值=125000.0, 网格类型=follow_long
+2026-01-01 21:58:58,256 - PriceLockManager - INFO - info:102 - ✅ 价格锁定管理器初始化: 阈值=125000.0, 网格类型=follow_long

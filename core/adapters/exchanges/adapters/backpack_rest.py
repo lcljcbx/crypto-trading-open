@@ -74,8 +74,22 @@ class BackpackRest(BackpackBase):
     async def connect(self) -> bool:
         """连接到Backpack REST API"""
         try:
-            # 创建HTTP session
-            self.session = aiohttp.ClientSession()
+            # 创建HTTP session，支持代理配置
+            # 优先从配置中读取代理，如果没有则从环境变量读取（trust_env=True）
+            proxy_url = None
+            if self.config:
+                # 从 extra_params 中读取代理配置
+                proxy_url = getattr(self.config, 'extra_params', {}).get('proxy')
+                # 如果没有，尝试从环境变量读取
+                if not proxy_url:
+                    import os
+                    proxy_url = os.getenv('HTTPS_PROXY') or os.getenv('HTTP_PROXY')
+            
+            # 创建 session，trust_env=True 会自动从环境变量读取代理
+            self.session = aiohttp.ClientSession(
+                trust_env=True,  # 自动从环境变量读取 HTTP_PROXY/HTTPS_PROXY
+                timeout=aiohttp.ClientTimeout(total=30)
+            )
 
             # 测试API连接并获取市场数据（一次性完成）
             if self.logger:

@@ -1,0 +1,15 @@
+2026-01-01 22:11:03,076 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 90000.0], 间隔1000, 4个网格
+2026-01-01 22:11:03,077 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成4个买单，价格范围 $86,000.00 - $89,000.00
+2026-01-01 22:11:03,077 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成4个初始订单，准备批量挂单
+2026-01-03 15:19:45,738 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 90000.0], 间隔1000, 4个网格
+2026-01-03 15:19:45,739 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成4个买单，价格范围 $86,000.00 - $89,000.00
+2026-01-03 15:19:45,740 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成4个初始订单，准备批量挂单
+2026-01-03 15:24:37,071 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 91000.0], 间隔1000, 5个网格
+2026-01-03 15:24:37,072 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成5个买单，价格范围 $86,000.00 - $90,000.00
+2026-01-03 15:24:37,072 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成5个初始订单，准备批量挂单
+2026-01-03 15:35:31,375 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 91000.0], 间隔1000, 5个网格
+2026-01-03 15:35:31,375 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成5个买单，价格范围 $86,000.00 - $90,000.00
+2026-01-03 15:35:31,375 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成5个初始订单，准备批量挂单
+2026-01-03 15:36:58,793 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 91000.0], 间隔1000, 5个网格
+2026-01-03 15:36:58,794 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成5个买单，价格范围 $86,000.00 - $90,000.00
+2026-01-03 15:36:58,794 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成5个初始订单，准备批量挂单
