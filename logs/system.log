@@ -195,3 +195,27 @@ KeyError: 'price_range'
 2026-01-03 15:36:55,162 - system - INFO - info:102 - 内置交易所适配器注册完成
 2026-01-03 15:36:55,162 - system - INFO - info:102 - 交易所管理器初始化完成
 2026-01-03 15:36:55,176 - system - INFO - info:102 - 创建交易所适配器实例: backpack
+2026-01-03 15:45:35,139 - system - INFO - info:102 - 🚀 组件启动: UnifiedLoggingSystem v3.0 | component=UnifiedLoggingSystem | version=v3.0
+2026-01-03 15:45:35,173 - system - INFO - info:102 - 事件处理器初始化完成: Default
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:45:36,790 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册了 5 个模块
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 依赖注入容器已初始化
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: hyperliquid (Hyperliquid)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: backpack (Backpack)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: binance (Binance Futures)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: edgex (EdgeX)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: lighter (Lighter)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: paradex (Paradex)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: variational (Variational Omni)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 注册交易所适配器: grvt (GRVT)
+2026-01-03 15:45:36,808 - system - INFO - info:102 - 内置交易所适配器注册完成
+2026-01-03 15:45:36,809 - system - INFO - info:102 - 交易所管理器初始化完成
+2026-01-03 15:45:36,822 - system - INFO - info:102 - 创建交易所适配器实例: backpack

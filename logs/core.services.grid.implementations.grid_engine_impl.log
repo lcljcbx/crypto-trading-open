@@ -453,3 +453,284 @@
 2026-01-03 15:42:11,999 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 302秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
 2026-01-03 15:42:27,788 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 333秒前, 消息 330秒前
 2026-01-03 15:42:40,232 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:42:57,791 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 363秒前, 消息 360秒前
+2026-01-03 15:43:11,821 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:43:12,145 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 362秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:43:27,794 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 393秒前, 消息 390秒前
+2026-01-03 15:43:42,481 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:43:57,797 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 423秒前, 消息 420秒前
+2026-01-03 15:44:12,551 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 422秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 15:44:15,004 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 15:44:21,810 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-03 15:44:21,811 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-03 15:44:21,811 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 订单健康检查已停止
+2026-01-03 15:44:22,065 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:44:22,389 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 15:44:22,390 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止
+2026-01-03 15:45:37,914 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎初始化: backpack
+2026-01-03 15:45:38,231 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket用户数据流...
+2026-01-03 15:45:38,486 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单更新流订阅成功 (WebSocket)
+2026-01-03 15:45:38,486 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控订单成交
+2026-01-03 15:45:38,486 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 智能监控已启动：WebSocket (主)
+2026-01-03 15:45:38,486 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔄 正在订阅WebSocket价格数据流...
+2026-01-03 15:45:38,488 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 智能监控循环已启动
+2026-01-03 15:45:39,750 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 价格数据流订阅成功 (WebSocket)
+2026-01-03 15:45:39,750 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📡 使用WebSocket实时监控价格
+2026-01-03 15:45:39,750 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 后台REST价格更新任务已启动（30秒间隔）
+2026-01-03 15:45:39,750 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 正在获取初始价格...
+2026-01-03 15:45:39,887 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 启动价格初始化成功: 89515.9
+2026-01-03 15:45:39,890 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查器已初始化（新模块）
+2026-01-03 15:45:39,890 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 执行引擎初始化完成: backpack/BTC_USDC_PERP
+2026-01-03 15:45:40,027 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 开始批量下单: 5个订单
+2026-01-03 15:45:40,027 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 处理第1/1批订单 (5个订单)
+2026-01-03 15:45:40,175 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📝 [下单] BUY 0.00200@86000.0 (Grid 1, OrderID: 26024852542)
+2026-01-03 15:45:40,612 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📝 [下单] BUY 0.00200@90000.0 (Grid 5, OrderID: 26024852968)
+2026-01-03 15:45:40,657 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📝 [下单] BUY 0.00200@88000.0 (Grid 3, OrderID: 26024853019)
+2026-01-03 15:45:40,672 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📝 [下单] BUY 0.00200@87000.0 (Grid 2, OrderID: 26024853035)
+2026-01-03 15:45:40,723 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📝 [下单] BUY 0.00200@89000.0 (Grid 4, OrderID: 26024853120)
+2026-01-03 15:45:40,724 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 第1批完成: 成功5/5个，总进度: 5/5
+2026-01-03 15:45:40,725 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 批量下单完成: 成功5/5个 (100.0%)
+2026-01-03 15:45:40,725 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 正在同步订单状态，检测立即成交的订单...
+2026-01-03 15:45:43,878 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 同步完成: 建立 0 个ID映射，当前挂单 5 个（等待 WebSocket 推送处理成交）
+2026-01-03 15:45:43,880 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已启动
+2026-01-03 15:45:43,881 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 订单健康检查已启动：间隔=600秒
+2026-01-03 15:45:43,884 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📊 订单健康检查循环已启动（使用新模块）
+2026-01-03 15:46:08,490 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 32秒前, 消息 30秒前
+2026-01-03 15:46:38,494 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 30秒前, 消息 60秒前
+2026-01-03 15:46:43,887 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=1767426404秒, 距上次订单成交=1767426403.9秒, 配置间隔=600秒
+2026-01-03 15:46:43,888 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 15:46:43,888 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 15:46:44,134 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=4个, 持仓=0.002
+2026-01-03 15:46:44,636 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 15:46:44,885 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=4个, 持仓=0.002
+2026-01-03 15:46:45,387 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 15:46:45,697 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=4个, 持仓=0.002
+2026-01-03 15:46:45,698 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 15:46:45,698 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=4个, 持仓=0.002, 数据一致且稳定
+2026-01-03 15:46:45,699 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 15:46:45,956 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📝 [下单] SELL 0.00200@90000.0 (Grid 5, OrderID: 26024967464)
+2026-01-03 15:46:45,959 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:47:08,497 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 29秒前, 消息 90秒前
+2026-01-03 15:47:38,500 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 28秒前, 消息 120秒前
+2026-01-03 15:48:08,515 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 28秒前, 消息 150秒前
+2026-01-03 15:48:38,528 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 27秒前, 消息 180秒前
+2026-01-03 15:49:08,531 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 26秒前, 消息 210秒前
+2026-01-03 15:49:38,535 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 26秒前, 消息 240秒前
+2026-01-03 15:50:08,538 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 26秒前, 消息 270秒前
+2026-01-03 15:50:38,541 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 300秒前
+2026-01-03 15:51:08,544 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 330秒前
+2026-01-03 15:51:38,545 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 360秒前
+2026-01-03 15:52:08,548 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 24秒前, 消息 390秒前
+2026-01-03 15:52:38,551 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 24秒前, 消息 420秒前
+2026-01-03 15:53:08,554 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 24秒前, 消息 450秒前
+2026-01-03 15:53:38,558 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 23秒前, 消息 480秒前
+2026-01-03 15:54:08,559 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 23秒前, 消息 510秒前
+2026-01-03 15:54:38,549 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 22秒前, 消息 540秒前
+2026-01-03 15:55:08,549 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 22秒前, 消息 570秒前
+2026-01-03 15:55:38,552 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 21秒前, 消息 600秒前
+2026-01-03 15:56:08,554 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 21秒前, 消息 630秒前
+2026-01-03 15:56:38,557 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 21秒前, 消息 660秒前
+2026-01-03 15:56:45,952 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=602秒, 距上次订单成交=1767427006.0秒, 配置间隔=600秒
+2026-01-03 15:56:45,953 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 15:56:45,953 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 15:56:46,471 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=5个, 持仓=0.002
+2026-01-03 15:56:46,973 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 15:56:47,124 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=5个, 持仓=0.002
+2026-01-03 15:56:47,627 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 15:56:47,800 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=5个, 持仓=0.002
+2026-01-03 15:56:47,801 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 15:56:47,802 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=5个, 持仓=0.002, 数据一致且稳定
+2026-01-03 15:56:47,802 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 15:56:47,980 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:57:08,560 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 690秒前
+2026-01-03 15:57:38,562 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 720秒前
+2026-01-03 15:58:08,565 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 750秒前
+2026-01-03 15:58:38,569 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 19秒前, 消息 780秒前
+2026-01-03 15:59:08,573 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 19秒前, 消息 810秒前
+2026-01-03 15:59:38,577 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 19秒前, 消息 840秒前
+2026-01-03 16:00:08,581 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 870秒前
+2026-01-03 16:00:38,584 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 900秒前
+2026-01-03 16:01:08,588 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 930秒前
+2026-01-03 16:01:38,592 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 17秒前, 消息 960秒前
+2026-01-03 16:02:08,597 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 17秒前, 消息 990秒前
+2026-01-03 16:02:38,601 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 17秒前, 消息 1020秒前
+2026-01-03 16:03:08,605 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 16秒前, 消息 1050秒前
+2026-01-03 16:03:38,608 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 16秒前, 消息 1080秒前
+2026-01-03 16:04:08,612 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 15秒前, 消息 1110秒前
+2026-01-03 16:04:38,615 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 15秒前, 消息 1140秒前
+2026-01-03 16:05:08,618 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 15秒前, 消息 1170秒前
+2026-01-03 16:05:38,623 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 14秒前, 消息 1200秒前
+2026-01-03 16:06:08,626 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 1230秒前
+2026-01-03 16:06:38,630 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 1260秒前
+2026-01-03 16:06:48,012 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=602秒, 距上次订单成交=1767427608.0秒, 配置间隔=600秒
+2026-01-03 16:06:48,012 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 16:06:48,013 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 16:06:48,581 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=5个, 持仓=0.002
+2026-01-03 16:06:49,085 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 16:06:49,586 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=5个, 持仓=0.002
+2026-01-03 16:06:50,089 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 16:06:50,301 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=5个, 持仓=0.002
+2026-01-03 16:06:50,302 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 16:06:50,302 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=5个, 持仓=0.002, 数据一致且稳定
+2026-01-03 16:06:50,303 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 16:06:50,541 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:07:08,633 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 1290秒前
+2026-01-03 16:07:38,635 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 1320秒前
+2026-01-03 16:08:08,637 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 1350秒前
+2026-01-03 16:08:38,639 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 1380秒前
+2026-01-03 16:09:08,644 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 11秒前, 消息 1410秒前
+2026-01-03 16:09:38,648 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 11秒前, 消息 1440秒前
+2026-01-03 16:10:08,652 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 11秒前, 消息 1470秒前
+2026-01-03 16:10:38,654 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 10秒前, 消息 1500秒前
+2026-01-03 16:11:08,658 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 10秒前, 消息 1530秒前
+2026-01-03 16:11:38,662 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 10秒前, 消息 1560秒前
+2026-01-03 16:12:08,665 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 9秒前, 消息 1590秒前
+2026-01-03 16:12:38,670 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 9秒前, 消息 1620秒前
+2026-01-03 16:13:08,673 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 8秒前, 消息 1650秒前
+2026-01-03 16:13:38,675 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 8秒前, 消息 1680秒前
+2026-01-03 16:14:08,678 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 8秒前, 消息 1710秒前
+2026-01-03 16:14:38,682 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 7秒前, 消息 1740秒前
+2026-01-03 16:15:08,686 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 7秒前, 消息 1770秒前
+2026-01-03 16:15:38,690 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 6秒前, 消息 1800秒前
+2026-01-03 16:16:08,693 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 6秒前, 消息 1830秒前
+2026-01-03 16:16:38,698 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 5秒前, 消息 1860秒前
+2026-01-03 16:16:50,575 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=603秒, 距上次订单成交=1767428210.6秒, 配置间隔=600秒
+2026-01-03 16:16:50,576 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 16:16:50,576 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 16:16:51,240 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=5个, 持仓=0.002
+2026-01-03 16:16:51,741 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 16:16:51,940 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=5个, 持仓=0.002
+2026-01-03 16:16:52,443 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 16:16:52,665 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=5个, 持仓=0.002
+2026-01-03 16:16:52,666 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 16:16:52,666 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=5个, 持仓=0.002, 数据一致且稳定
+2026-01-03 16:16:52,666 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 16:16:52,841 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:17:08,701 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 5秒前, 消息 1890秒前
+2026-01-03 16:17:38,705 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 5秒前, 消息 1920秒前
+2026-01-03 16:18:08,708 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 5秒前, 消息 1950秒前
+2026-01-03 16:18:38,711 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 4秒前, 消息 1980秒前
+2026-01-03 16:19:08,714 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 4秒前, 消息 2010秒前
+2026-01-03 16:19:38,718 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 4秒前, 消息 2040秒前
+2026-01-03 16:20:08,723 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 3秒前, 消息 2070秒前
+2026-01-03 16:20:38,725 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 3秒前, 消息 2100秒前
+2026-01-03 16:21:08,729 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 3秒前, 消息 2130秒前
+2026-01-03 16:21:38,731 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 2秒前, 消息 2160秒前
+2026-01-03 16:22:08,735 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 2秒前, 消息 2191秒前
+2026-01-03 16:22:38,739 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 2秒前, 消息 2221秒前
+2026-01-03 16:23:08,743 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 1秒前, 消息 2251秒前
+2026-01-03 16:23:38,747 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 1秒前, 消息 2281秒前
+2026-01-03 16:24:08,751 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 1秒前, 消息 2311秒前
+2026-01-03 16:24:38,754 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 0秒前, 消息 2341秒前
+2026-01-03 16:25:08,676 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 30秒前, 消息 2370秒前
+2026-01-03 16:25:38,680 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 30秒前, 消息 2400秒前
+2026-01-03 16:26:08,685 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 29秒前, 消息 2430秒前
+2026-01-03 16:26:38,690 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 29秒前, 消息 2460秒前
+2026-01-03 16:26:52,791 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=602秒, 距上次订单成交=1767428812.8秒, 配置间隔=600秒
+2026-01-03 16:26:52,792 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 16:26:52,792 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 16:26:52,987 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=5个, 持仓=0.002
+2026-01-03 16:26:53,490 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 16:26:53,661 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=5个, 持仓=0.002
+2026-01-03 16:26:54,163 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 16:26:54,344 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=5个, 持仓=0.002
+2026-01-03 16:26:54,344 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 16:26:54,344 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=5个, 持仓=0.002, 数据一致且稳定
+2026-01-03 16:26:54,345 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 16:26:54,521 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:27:08,695 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 28秒前, 消息 2490秒前
+2026-01-03 16:27:38,698 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 28秒前, 消息 2520秒前
+2026-01-03 16:28:08,702 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 28秒前, 消息 2550秒前
+2026-01-03 16:28:38,705 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 27秒前, 消息 2580秒前
+2026-01-03 16:29:08,710 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 27秒前, 消息 2610秒前
+2026-01-03 16:29:38,714 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 27秒前, 消息 2640秒前
+2026-01-03 16:30:08,720 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 26秒前, 消息 2670秒前
+2026-01-03 16:30:38,722 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 26秒前, 消息 2700秒前
+2026-01-03 16:31:08,725 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 2730秒前
+2026-01-03 16:31:38,728 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 2760秒前
+2026-01-03 16:32:08,732 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 2791秒前
+2026-01-03 16:32:38,736 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 2821秒前
+2026-01-03 16:33:08,744 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 23秒前, 消息 2851秒前
+2026-01-03 16:33:38,746 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 23秒前, 消息 2881秒前
+2026-01-03 16:34:08,751 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 22秒前, 消息 2911秒前
+2026-01-03 16:34:38,755 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 22秒前, 消息 2941秒前
+2026-01-03 16:35:08,759 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 22秒前, 消息 2971秒前
+2026-01-03 16:35:38,763 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 22秒前, 消息 3001秒前
+2026-01-03 16:36:08,767 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 21秒前, 消息 3031秒前
+2026-01-03 16:36:38,771 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 21秒前, 消息 3061秒前
+2026-01-03 16:36:54,559 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=602秒, 距上次订单成交=1767429414.6秒, 配置间隔=600秒
+2026-01-03 16:36:54,560 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 16:36:54,561 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 16:36:54,727 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=5个, 持仓=0.002
+2026-01-03 16:36:55,230 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 16:36:55,410 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=5个, 持仓=0.002
+2026-01-03 16:36:55,913 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 16:36:56,097 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=5个, 持仓=0.002
+2026-01-03 16:36:56,098 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 16:36:56,098 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=5个, 持仓=0.002, 数据一致且稳定
+2026-01-03 16:36:56,098 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 16:36:56,280 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:37:08,775 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 21秒前, 消息 3091秒前
+2026-01-03 16:37:38,779 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 3121秒前
+2026-01-03 16:38:08,783 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 3151秒前
+2026-01-03 16:38:38,787 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 3181秒前
+2026-01-03 16:39:08,791 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 3211秒前
+2026-01-03 16:39:38,794 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 19秒前, 消息 3241秒前
+2026-01-03 16:40:08,798 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 3271秒前
+2026-01-03 16:40:38,802 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 3301秒前
+2026-01-03 16:41:08,806 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 3331秒前
+2026-01-03 16:41:38,810 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 18秒前, 消息 3361秒前
+2026-01-03 16:42:08,815 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 17秒前, 消息 3391秒前
+2026-01-03 16:42:38,818 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 17秒前, 消息 3421秒前
+2026-01-03 16:43:08,823 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 17秒前, 消息 3451秒前
+2026-01-03 16:43:38,827 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 16秒前, 消息 3481秒前
+2026-01-03 16:44:08,829 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 16秒前, 消息 3511秒前
+2026-01-03 16:44:38,832 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 16秒前, 消息 3541秒前
+2026-01-03 16:45:08,837 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 15秒前, 消息 3571秒前
+2026-01-03 16:45:38,840 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 15秒前, 消息 3601秒前
+2026-01-03 16:46:08,844 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 10秒前, 消息 3631秒前
+2026-01-03 16:46:23,298 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 60秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 16:46:38,849 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 5秒前, 消息 3661秒前
+2026-01-03 16:46:53,443 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 16:46:56,305 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=602秒, 距上次订单成交=1767430016.3秒, 配置间隔=600秒
+2026-01-03 16:46:56,306 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 16:46:56,307 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 16:47:08,852 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 35秒前, 消息 3691秒前
+2026-01-03 16:47:23,500 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 120秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 16:47:26,321 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照1: 订单=0个, 持仓=0.0
+2026-01-03 16:47:26,823 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第2次快照...
+2026-01-03 16:47:38,856 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 30秒前, 消息 3721秒前
+2026-01-03 16:47:56,837 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照2: 订单=0个, 持仓=0.0
+2026-01-03 16:47:57,342 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第3次快照...
+2026-01-03 16:48:08,860 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 25秒前, 消息 3751秒前
+2026-01-03 16:48:23,489 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ REST价格更新失败：无有效价格
+2026-01-03 16:48:23,829 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 181秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 16:48:27,350 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 -    ✅ 快照3: 订单=0个, 持仓=0.0
+2026-01-03 16:48:27,351 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 3次快照期间无订单成交
+2026-01-03 16:48:27,351 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 快照验证通过: 订单=0个, 持仓=0.0, 数据一致且稳定
+2026-01-03 16:48:27,351 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🚀 直接使用快照数据，无需重复API调用
+2026-01-03 16:48:27,356 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:48:38,864 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 20秒前, 消息 3781秒前
+2026-01-03 16:49:08,875 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 19秒前, 消息 3811秒前
+2026-01-03 16:49:38,878 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 14秒前, 消息 3841秒前
+2026-01-03 16:50:08,882 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 14秒前, 消息 3871秒前
+2026-01-03 16:50:38,885 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 14秒前, 消息 3901秒前
+2026-01-03 16:51:08,890 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 3931秒前
+2026-01-03 16:51:38,892 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 3961秒前
+2026-01-03 16:52:08,898 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 3991秒前
+2026-01-03 16:52:38,902 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 13秒前, 消息 4021秒前
+2026-01-03 16:53:08,914 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 4051秒前
+2026-01-03 16:53:38,918 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 4081秒前
+2026-01-03 16:54:08,929 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 4111秒前
+2026-01-03 16:55:07,321 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 12秒前, 消息 4169秒前
+2026-01-03 17:00:58,696 - core.services.grid.implementations.grid_engine_impl - WARNING - warning:109 - ⚠️ 价格缓存已过期 337秒，仍使用旧价格。检查WS连接和REST更新任务是否正常。
+2026-01-03 17:01:00,940 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 💓 WebSocket健康: 连接正常, 心跳 335秒前, 消息 4523秒前
+2026-01-03 17:01:19,370 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 🔍 准备健康检查: 距上次检查=863秒, 距上次订单成交=1767430879.4秒, 配置间隔=600秒
+2026-01-03 17:01:19,373 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 开始市场快照验证（3次快照，间隔0.5秒）
+2026-01-03 17:01:19,373 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 📸 获取第1次快照...
+2026-01-03 17:01:19,407 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 智能监控已停止
+2026-01-03 17:01:19,408 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - REST价格更新任务已取消
+2026-01-03 17:01:19,410 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 订单健康检查已停止
+2026-01-03 17:01:20,047 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 5个
+2026-01-03 17:01:20,421 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - ✅ 主动批量取消所有订单: 0个
+2026-01-03 17:01:20,422 - core.services.grid.implementations.grid_engine_impl - INFO - info:102 - 网格执行引擎已停止

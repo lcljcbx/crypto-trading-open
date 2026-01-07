@@ -2992,3 +2992,436 @@ aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backp
 2026-01-03 15:42:40,052 - ExchangeAdapter.backpack - ERROR - error:116 - 获取行情失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
 2026-01-03 15:42:40,231 - ExchangeAdapter.backpack - ERROR - error:116 - 获取 BTC_USDC_PERP 订单簿快照失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
 2026-01-03 15:42:40,232 - ExchangeAdapter.backpack - ERROR - error:116 - 获取订单簿失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:04,712 - ExchangeAdapter.backpack - ERROR - error:116 - 获取持仓失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:10,431 - ExchangeAdapter.backpack - ERROR - error:116 - 获取行情失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:11,820 - ExchangeAdapter.backpack - ERROR - error:116 - 获取 BTC_USDC_PERP 订单簿快照失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:11,821 - ExchangeAdapter.backpack - ERROR - error:116 - 获取订单簿失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:13,633 - ExchangeAdapter.backpack - ERROR - error:116 - ❌ [Backpack] 余额查询失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 992, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/selector_events.py", line 853, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1036, in get_balances
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 387, in _make_authenticated_request
+    data: Optional[Dict] = None
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 574, in _request
+    conn = await self._connector.connect(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1235, in _create_direct_connection
+    raise last_exc
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1204, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1000, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:42,237 - ExchangeAdapter.backpack - ERROR - error:116 - 获取行情失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:42,480 - ExchangeAdapter.backpack - ERROR - error:116 - 获取 BTC_USDC_PERP 订单簿快照失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:43:42,481 - ExchangeAdapter.backpack - ERROR - error:116 - 获取订单簿失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:05,211 - ExchangeAdapter.backpack - ERROR - error:116 - 获取持仓失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:13,721 - ExchangeAdapter.backpack - ERROR - error:116 - 获取行情失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:13,972 - ExchangeAdapter.backpack - ERROR - error:116 - ❌ [Backpack] 余额查询失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 992, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/selector_events.py", line 853, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1036, in get_balances
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 387, in _make_authenticated_request
+    data: Optional[Dict] = None
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 574, in _request
+    conn = await self._connector.connect(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1235, in _create_direct_connection
+    raise last_exc
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1204, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1000, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:15,003 - ExchangeAdapter.backpack - ERROR - error:116 - 获取 BTC_USDC_PERP 订单簿快照失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:15,003 - ExchangeAdapter.backpack - ERROR - error:116 - 获取订单簿失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:22,061 - ExchangeAdapter.backpack - ERROR - error:116 - 取消所有订单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:22,065 - ExchangeAdapter.backpack - ERROR - error:116 - Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/selectors.py", line 562, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 992, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/selector_events.py", line 853, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1595, in cancel_all_orders
+    1. 先尝试使用 Backpack 的批量取消 API（只使用 symbol 参数）
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 387, in _make_authenticated_request
+    data: Optional[Dict] = None
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 574, in _request
+    conn = await self._connector.connect(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1235, in _create_direct_connection
+    raise last_exc
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1204, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1000, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+
+2026-01-03 15:44:22,386 - ExchangeAdapter.backpack - ERROR - error:116 - 取消所有订单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:44:22,388 - ExchangeAdapter.backpack - ERROR - error:116 - Traceback (most recent call last):
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 601, in run_forever
+    self._run_once()
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1869, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/selectors.py", line 562, in select
+    kev_list = self._selector.control(None, max_ev, timeout)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 992, in _wrap_create_connection
+    return await self._loop.create_connection(*args, **kwargs)
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1090, in create_connection
+    transport, protocol = await self._create_connection_transport(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1120, in _create_connection_transport
+    await waiter
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/selector_events.py", line 853, in _read_ready__data_received
+    data = self._sock.recv(self.max_size)
+ConnectionResetError: [Errno 54] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1595, in cancel_all_orders
+    1. 先尝试使用 Backpack 的批量取消 API（只使用 symbol 参数）
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 387, in _make_authenticated_request
+    data: Optional[Dict] = None
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 574, in _request
+    conn = await self._connector.connect(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 911, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1235, in _create_direct_connection
+    raise last_exc
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1204, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1000, in _wrap_create_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backpack.exchange:443 ssl:default [Connection reset by peer]
+
+2026-01-03 15:44:22,391 - ExchangeAdapter.backpack - INFO - info:102 - 正在断开交易所连接...
+2026-01-03 15:44:22,391 - ExchangeAdapter.backpack - INFO - disconnect:303 - 🔄 开始断开Backpack WebSocket连接...
+2026-01-03 15:44:22,391 - ExchangeAdapter.backpack - INFO - disconnect:336 - 🛑 关闭Backpack session...
+2026-01-03 15:44:22,392 - ExchangeAdapter.backpack - INFO - disconnect:343 - ✅ Backpack session已关闭
+2026-01-03 15:44:22,392 - ExchangeAdapter.backpack - INFO - disconnect:352 - 🎉 Backpack WebSocket连接断开完成
+2026-01-03 15:44:22,393 - ExchangeAdapter.backpack - INFO - info:102 - Backpack REST会话已关闭
+2026-01-03 15:44:22,393 - ExchangeAdapter.backpack - INFO - info:102 - Backpack适配器已断开连接
+2026-01-03 15:44:22,394 - ExchangeAdapter.backpack - INFO - info:102 - 交易所连接已断开
+2026-01-03 15:44:22,394 - ExchangeAdapter.backpack - INFO - info:102 - 交易所适配器已停止: backpack
+2026-01-03 15:45:36,791 - ExchangeAdapter.backpack - INFO - info:102 - ✅ [Backpack] 已注册订单缓存回调，当前回调数量: 1
+2026-01-03 15:45:36,822 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 订阅管理器: 初始化成功 (模式: dynamic)
+2026-01-03 15:45:36,823 - ExchangeAdapter.backpack - INFO - info:102 - 正在连接到交易所...
+2026-01-03 15:45:36,823 - ExchangeAdapter.backpack - INFO - info:102 - 测试Backpack API连接并获取市场数据...
+2026-01-03 15:45:37,304 - ExchangeAdapter.backpack - INFO - info:102 - Backpack API连接成功
+2026-01-03 15:45:37,308 - ExchangeAdapter.backpack - INFO - info:102 - 获取到 149 个市场数据
+2026-01-03 15:45:37,308 - ExchangeAdapter.backpack - INFO - info:102 - ✅ Backpack连接成功，市场数据统计:
+2026-01-03 15:45:37,309 - ExchangeAdapter.backpack - INFO - info:102 -   - 总市场数量: 149
+2026-01-03 15:45:37,309 - ExchangeAdapter.backpack - INFO - info:102 -   - 永续合约: 73
+2026-01-03 15:45:37,309 - ExchangeAdapter.backpack - INFO - info:102 -   - 现货交易对: 76 (已跳过)
+2026-01-03 15:45:37,309 - ExchangeAdapter.backpack - INFO - info:102 -   - 最终可用: 73 个永续合约
+2026-01-03 15:45:37,310 - ExchangeAdapter.backpack - INFO - info:102 - 成功获取 73 个交易对
+2026-01-03 15:45:37,310 - ExchangeAdapter.backpack - INFO - connect:248 - 🔌 [Backpack] 开始建立WebSocket连接...
+2026-01-03 15:45:37,762 - ExchangeAdapter.backpack - ERROR - connect:305 - ❌ [Backpack] 建立WebSocket连接失败: Cannot connect to host ws.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:45:37,763 - ExchangeAdapter.backpack - WARNING - warning:109 - ⚠️ Backpack WebSocket连接失败，但REST API可用
+2026-01-03 15:45:37,911 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:45:37,912 - ExchangeAdapter.backpack - INFO - info:102 - Backpack适配器连接成功
+2026-01-03 15:45:37,912 - ExchangeAdapter.backpack - INFO - info:102 - 交易所连接成功
+2026-01-03 15:45:37,912 - ExchangeAdapter.backpack - INFO - info:102 - 交易所适配器已启动: backpack
+2026-01-03 15:45:38,231 - ExchangeAdapter.backpack - INFO - connect:248 - 🔌 [Backpack] 开始建立WebSocket连接...
+2026-01-03 15:45:38,481 - ExchangeAdapter.backpack - ERROR - connect:305 - ❌ [Backpack] 建立WebSocket连接失败: Cannot connect to host ws.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:45:38,483 - ExchangeAdapter.backpack - INFO - subscribe_user_data:2021 - 订阅订单更新流: account.orderUpdate (timestamp=1767426338482)
+2026-01-03 15:45:38,484 - ExchangeAdapter.backpack - WARNING - _safe_send_message:233 - ⚠️ WebSocket连接不可用，无法发送消息
+2026-01-03 15:45:38,484 - ExchangeAdapter.backpack - WARNING - subscribe_user_data:2031 - 发送订单更新订阅消息失败
+2026-01-03 15:45:38,485 - ExchangeAdapter.backpack - INFO - subscribe_user_data:2046 - 订阅持仓更新流: account.positionUpdate (timestamp=1767426338484)
+2026-01-03 15:45:38,485 - ExchangeAdapter.backpack - WARNING - _safe_send_message:233 - ⚠️ WebSocket连接不可用，无法发送消息
+2026-01-03 15:45:38,485 - ExchangeAdapter.backpack - WARNING - subscribe_user_data:2056 - 发送持仓更新订阅消息失败
+2026-01-03 15:45:38,486 - ExchangeAdapter.backpack - INFO - connect:248 - 🔌 [Backpack] 开始建立WebSocket连接...
+2026-01-03 15:45:39,749 - ExchangeAdapter.backpack - ERROR - connect:305 - ❌ [Backpack] 建立WebSocket连接失败: Cannot connect to host ws.backpack.exchange:443 ssl:default [Connection reset by peer]
+2026-01-03 15:45:39,749 - ExchangeAdapter.backpack - WARNING - _safe_send_message:233 - ⚠️ WebSocket连接不可用，无法发送消息
+2026-01-03 15:45:39,749 - ExchangeAdapter.backpack - WARNING - subscribe_ticker:1859 - 发送 BTC_USDC_PERP 订阅消息失败
+2026-01-03 15:46:44,170 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:47:44,328 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:48:44,472 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:49:44,610 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:50:44,759 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:51:44,921 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:52:45,081 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:53:45,242 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:54:45,445 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:55:46,105 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:56:46,262 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:56:47,977 - ExchangeAdapter.backpack - WARNING - warning:109 - API请求失败 400: {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 15:56:47,977 - ExchangeAdapter.backpack - ERROR - error:116 - 创建订单失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 15:56:47,977 - ExchangeAdapter.backpack - ERROR - error:116 - 异常类型: RuntimeError
+2026-01-03 15:56:47,977 - ExchangeAdapter.backpack - ERROR - error:116 - 订单数据: {'symbol': 'BTC_USDC_PERP', 'side': 'Bid', 'orderType': 'Market', 'quantity': '0.002', 'price': '89465.1'}
+2026-01-03 15:56:47,978 - ExchangeAdapter.backpack - ERROR - error:116 - 异常堆栈: Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 15:57:46,727 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:58:47,201 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 15:59:47,781 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:00:48,304 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:01:48,819 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:02:49,592 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:03:50,146 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:04:50,662 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:05:51,289 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:06:50,534 - ExchangeAdapter.backpack - WARNING - warning:109 - API请求失败 400: {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:06:50,537 - ExchangeAdapter.backpack - ERROR - error:116 - 创建订单失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:06:50,537 - ExchangeAdapter.backpack - ERROR - error:116 - 异常类型: RuntimeError
+2026-01-03 16:06:50,537 - ExchangeAdapter.backpack - ERROR - error:116 - 订单数据: {'symbol': 'BTC_USDC_PERP', 'side': 'Bid', 'orderType': 'Market', 'quantity': '0.002', 'price': '89491.6'}
+2026-01-03 16:06:50,538 - ExchangeAdapter.backpack - ERROR - error:116 - 异常堆栈: Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:06:51,535 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:07:52,052 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:08:52,638 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:09:53,528 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:10:54,014 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:11:54,608 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:12:55,203 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:13:55,765 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:14:56,366 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:15:56,997 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:16:52,838 - ExchangeAdapter.backpack - WARNING - warning:109 - API请求失败 400: {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:16:52,840 - ExchangeAdapter.backpack - ERROR - error:116 - 创建订单失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:16:52,840 - ExchangeAdapter.backpack - ERROR - error:116 - 异常类型: RuntimeError
+2026-01-03 16:16:52,840 - ExchangeAdapter.backpack - ERROR - error:116 - 订单数据: {'symbol': 'BTC_USDC_PERP', 'side': 'Bid', 'orderType': 'Market', 'quantity': '0.002', 'price': '89469.9'}
+2026-01-03 16:16:52,840 - ExchangeAdapter.backpack - ERROR - error:116 - 异常堆栈: Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:16:57,180 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:17:57,684 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:18:58,237 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:19:58,810 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:20:59,351 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:21:59,915 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:23:00,436 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:24:01,012 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:25:01,579 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:26:02,049 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:26:54,513 - ExchangeAdapter.backpack - WARNING - warning:109 - API请求失败 400: {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:26:54,515 - ExchangeAdapter.backpack - ERROR - error:116 - 创建订单失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:26:54,516 - ExchangeAdapter.backpack - ERROR - error:116 - 异常类型: RuntimeError
+2026-01-03 16:26:54,516 - ExchangeAdapter.backpack - ERROR - error:116 - 订单数据: {'symbol': 'BTC_USDC_PERP', 'side': 'Bid', 'orderType': 'Market', 'quantity': '0.002', 'price': '89547.4'}
+2026-01-03 16:26:54,518 - ExchangeAdapter.backpack - ERROR - error:116 - 异常堆栈: Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:27:02,242 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:28:02,807 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:29:03,361 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:30:03,897 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:31:04,751 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:32:05,309 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:33:05,868 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:34:06,427 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:35:06,910 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:36:07,970 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:36:56,275 - ExchangeAdapter.backpack - WARNING - warning:109 - API请求失败 400: {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:36:56,277 - ExchangeAdapter.backpack - ERROR - error:116 - 创建订单失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:36:56,277 - ExchangeAdapter.backpack - ERROR - error:116 - 异常类型: RuntimeError
+2026-01-03 16:36:56,277 - ExchangeAdapter.backpack - ERROR - error:116 - 订单数据: {'symbol': 'BTC_USDC_PERP', 'side': 'Bid', 'orderType': 'Market', 'quantity': '0.002', 'price': '89680.7'}
+2026-01-03 16:36:56,278 - ExchangeAdapter.backpack - ERROR - error:116 - 异常堆栈: Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:37:08,133 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:38:08,698 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:39:09,250 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:40:09,799 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:41:10,348 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:42:10,961 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:43:11,470 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:44:12,072 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:45:12,943 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:45:58,936 - ExchangeAdapter.backpack - WARNING - warning:109 - 心跳检查失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:46:23,422 - ExchangeAdapter.backpack - ERROR - error:116 - 获取行情失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:46:33,946 - ExchangeAdapter.backpack - WARNING - warning:109 - 心跳检查失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:46:42,953 - ExchangeAdapter.backpack - ERROR - error:116 - ❌ [Backpack] 余额查询失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1104, in _start_tls_connection
+    tls_transport = await self._loop.start_tls(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1240, in start_tls
+    await waiter
+ConnectionAbortedError: SSL handshake is taking longer than 30 seconds: aborting the connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1050, in get_balances
+    data = await self._make_authenticated_request("GET", "/api/v1/capital/collateral")
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 401, in _make_authenticated_request
+    async with self.session.request(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 574, in _request
+    conn = await self._connector.connect(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 909, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1357, in _create_proxy_connection
+    return await self._start_tls_connection(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1124, in _start_tls_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:46:53,433 - ExchangeAdapter.backpack - ERROR - error:116 - 获取 BTC_USDC_PERP 订单簿快照失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:46:53,434 - ExchangeAdapter.backpack - ERROR - error:116 - 获取订单簿失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:08,959 - ExchangeAdapter.backpack - WARNING - warning:109 - 心跳检查失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:26,320 - ExchangeAdapter.backpack - ERROR - error:116 - 获取开放订单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:26,321 - ExchangeAdapter.backpack - ERROR - error:116 - 获取持仓失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:43,967 - ExchangeAdapter.backpack - WARNING - warning:109 - 心跳检查失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:53,475 - ExchangeAdapter.backpack - ERROR - error:116 - 获取行情失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:56,836 - ExchangeAdapter.backpack - ERROR - error:116 - 获取开放订单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:47:56,837 - ExchangeAdapter.backpack - ERROR - error:116 - 获取持仓失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:48:12,977 - ExchangeAdapter.backpack - ERROR - error:116 - ❌ [Backpack] 余额查询失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1104, in _start_tls_connection
+    tls_transport = await self._loop.start_tls(
+  File "/usr/local/Cellar/python@3.9/3.9.12/Frameworks/Python.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 1240, in start_tls
+    await waiter
+ConnectionAbortedError: SSL handshake is taking longer than 30 seconds: aborting the connection
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1050, in get_balances
+    data = await self._make_authenticated_request("GET", "/api/v1/capital/collateral")
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 401, in _make_authenticated_request
+    async with self.session.request(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 1187, in __aenter__
+    self._resp = await self._coro
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/client.py", line 574, in _request
+    conn = await self._connector.connect(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 544, in connect
+    proto = await self._create_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 909, in _create_connection
+    _, proto = await self._create_proxy_connection(req, traces, timeout)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1357, in _create_proxy_connection
+    return await self._start_tls_connection(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/env/lib/python3.9/site-packages/aiohttp/connector.py", line 1124, in _start_tls_connection
+    raise client_error(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorError: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:48:18,982 - ExchangeAdapter.backpack - WARNING - warning:109 - 心跳检查失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:48:23,487 - ExchangeAdapter.backpack - ERROR - error:116 - 获取 BTC_USDC_PERP 订单簿快照失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:48:23,488 - ExchangeAdapter.backpack - ERROR - error:116 - 获取订单簿失败 BTC_USDC_PERP: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:48:27,348 - ExchangeAdapter.backpack - ERROR - error:116 - 获取开放订单失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:48:27,350 - ExchangeAdapter.backpack - ERROR - error:116 - 获取持仓失败: Cannot connect to host api.backpack.exchange:443 ssl:default [None]
+2026-01-03 16:49:15,457 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:49:25,000 - ExchangeAdapter.backpack - WARNING - warning:109 - 心跳检查失败: 
+2026-01-03 16:50:21,083 - ExchangeAdapter.backpack - WARNING - warning:109 - API请求失败 400: {"code":"INVALID_CLIENT_REQUEST","message":"Request has expired"}
+2026-01-03 16:50:21,085 - ExchangeAdapter.backpack - ERROR - error:116 - ❌ [Backpack] 余额查询失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Request has expired"}
+Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1050, in get_balances
+    data = await self._make_authenticated_request("GET", "/api/v1/capital/collateral")
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Request has expired"}
+2026-01-03 16:51:21,262 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:52:21,969 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:53:22,486 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 16:54:51,441 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 17:01:16,192 - ExchangeAdapter.backpack - INFO - info:102 - [Backpack] 余额查询成功: 1个币种
+2026-01-03 17:01:20,044 - ExchangeAdapter.backpack - INFO - info:102 - 批量取消API返回: 5 个订单
+2026-01-03 17:01:20,232 - ExchangeAdapter.backpack - INFO - info:102 - 批量取消API返回: 0 个订单
+2026-01-03 17:01:20,233 - ExchangeAdapter.backpack - WARNING - warning:109 - 批量取消返回0个订单，尝试获取所有未成交订单并逐个取消...
+2026-01-03 17:01:20,420 - ExchangeAdapter.backpack - INFO - info:102 - 获取到 0 个未成交订单
+2026-01-03 17:01:20,421 - ExchangeAdapter.backpack - INFO - info:102 - 逐个取消完成: 成功取消 0 个订单
+2026-01-03 17:01:20,423 - ExchangeAdapter.backpack - INFO - info:102 - 正在断开交易所连接...
+2026-01-03 17:01:20,423 - ExchangeAdapter.backpack - INFO - disconnect:312 - 🔄 开始断开Backpack WebSocket连接...
+2026-01-03 17:01:20,424 - ExchangeAdapter.backpack - INFO - disconnect:345 - 🛑 关闭Backpack session...
+2026-01-03 17:01:20,424 - ExchangeAdapter.backpack - INFO - disconnect:352 - ✅ Backpack session已关闭
+2026-01-03 17:01:20,425 - ExchangeAdapter.backpack - INFO - disconnect:361 - 🎉 Backpack WebSocket连接断开完成
+2026-01-03 17:01:20,426 - ExchangeAdapter.backpack - INFO - info:102 - Backpack REST会话已关闭
+2026-01-03 17:01:20,426 - ExchangeAdapter.backpack - INFO - info:102 - Backpack适配器已断开连接
+2026-01-03 17:01:20,426 - ExchangeAdapter.backpack - INFO - info:102 - 交易所连接已断开
+2026-01-03 17:01:20,426 - ExchangeAdapter.backpack - INFO - info:102 - 交易所适配器已停止: backpack

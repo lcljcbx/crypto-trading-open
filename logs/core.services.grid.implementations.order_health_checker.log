@@ -98,3 +98,738 @@
 2026-01-03 15:38:13,053 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 2026-01-03 15:38:13,053 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
 2026-01-03 15:38:13,053 - core.services.grid.implementations.order_health_checker - WARNING - warning:109 - ⚠️ 未获取到任何挂单，跳过健康检查
+2026-01-03 15:45:39,890 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:94 - ================================================================================
+2026-01-03 15:45:39,890 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:95 - ✅ 健康检查器日志配置完成：logger级别=DEBUG，文件处理器级别=DEBUG，propagate=False
+2026-01-03 15:45:39,890 - core.services.grid.implementations.order_health_checker - DEBUG - __init__:97 - ================================================================================
+2026-01-03 15:45:39,890 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 订单健康检查器初始化: 网格数=5, 反手距离=1格, 市场类型=perp
+2026-01-03 15:46:45,699 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 15:46:45,700 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 15:46:45,700 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 15:46:45,700 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:46:45,701 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 15:46:45,701 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:46:45,701 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 15:46:45,701 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 15:46:45,701 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,701 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 15:46:45]
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 15:46:45,702 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,703 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 15:46:45,703 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📡 订单数据: 4个 (买单: 4, 卖单: 0)
+2026-01-03 15:46:45,703 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📍 持仓数据: 0.002 BTC_USDC_PERP (方向: LONG)
+2026-01-03 15:46:45,703 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,703 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,703 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段2】订单全面诊断
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.1 订单数量检查
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前订单: 4个
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     目标订单: 5个
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 结论: 缺少 1个订单
+2026-01-03 15:46:45,704 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,705 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.2 订单质量检查
+2026-01-03 15:46:45,705 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 实际订单分布: 价格范围 [86000, 89000], 网格范围 [Grid 1, Grid 4]
+2026-01-03 15:46:45,705 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📏 使用基础范围: [86000.0, 91000.0] (Grid 1-5)
+2026-01-03 15:46:45,705 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     网格范围: Grid [1, 4] (价格: [86000.0, 89000.0])
+2026-01-03 15:46:45,705 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     理论范围: Grid [1, 5] (价格: [86000.00, 91000.00])
+2026-01-03 15:46:45,705 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 缓存统计（参考）: client_id缓存=0个, 市场实际=4个, 差异=4个
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 💡 注意: 以下检查仅基于市场订单，不依赖缓存
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查1: 诊断重复订单（相同价格）
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 无重复订单
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查2: 诊断超出理论范围的订单
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在理论范围内
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查3: 检查订单价格是否在正确的网格点上
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在正确的网格点上
+2026-01-03 15:46:45,706 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 重复订单: 0个
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 超范围订单: 0个
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 偏离网格点: 0个
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.3 网格覆盖评估
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 网格覆盖: 已覆盖=4格, 缺失=1格, 预期=5格
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    真正缺失网格: [5]
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     已覆盖网格: 4格
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     获利空格: 0格 
+2026-01-03 15:46:45,707 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 缺失网格: 1格
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       - Grid 5 @ $90000.0 (SELL)
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📝 订单诊断结果: 缺1个订单
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段3】持仓验证（基于修复后）
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🔥 基于修复后状态计算预期持仓:
+2026-01-03 15:46:45,708 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前状态: 4买 + 0卖 = 4个
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     修复后: 5买 + 0卖 = 5个 (补充1个买单)
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   预期持仓: 0.000 (基于修复后5买单)
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   实际持仓: 0
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   偏差: 0.000 (容错: 0.0020)
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ✅ 持仓健康: 正常
+2026-01-03 15:46:45,709 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段4】执行操作
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.1 订单操作
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无问题订单需要清理
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     🔧 补充缺失订单: 1个
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-市场类型判断: config.market_type='perp'
+2026-01-03 15:46:45,710 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-交易所类型: exchange.config.exchange_type=ExchangeType.PERPETUAL
+2026-01-03 15:46:45,711 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ℹ️ 判定为永续合约模式（market_type 非 'spot'）
+2026-01-03 15:46:45,711 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔧 准备补充 1 个缺失网格
+2026-01-03 15:46:45,711 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 当前价格: $89452
+2026-01-03 15:46:45,957 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ✅ 补充Grid 5: sell 0.00200@90000.0
+2026-01-03 15:46:45,957 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ✅ 补单完成: 成功=1个, 失败=0个, 总计=1个
+2026-01-03 15:46:45,957 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       ✅ Grid 5 @ $90000.0 (SELL 0.002) - 已挂单
+2026-01-03 15:46:45,957 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,957 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.2 持仓操作
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无需调整（持仓正常）
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.3 缓存同步
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⏸️  本轮检查发现问题，跳过缓存同步（等待下一轮）
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:46:45,958 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:56:47,803 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 15:56:47,803 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 15:56:47,804 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 15:56:47,804 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:56:47,804 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 15:56:47,804 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 15:56:47,805 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 15:56:47,805 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 15:56:47,805 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,806 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:56:47,806 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 15:56:47]
+2026-01-03 15:56:47,806 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:56:47,806 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📡 订单数据: 5个 (买单: 4, 卖单: 1)
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📍 持仓数据: 0.002 BTC_USDC_PERP (方向: LONG)
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段2】订单全面诊断
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,807 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.1 订单数量检查
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前订单: 5个
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     目标订单: 5个
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 结论: 订单数量正确
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.2 订单质量检查
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 实际订单分布: 价格范围 [86000, 90000], 网格范围 [Grid 1, Grid 5]
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔼 做多网格检测到卖单，向上扩展:
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    基础: [86000.0, 91000.0] (Grid 1-5)
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    扩展: [86000.0, 92000.0] (Grid 1-6)
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    预期订单数: 5个 (中间1格为获利空格)
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     网格范围: Grid [1, 5] (价格: [86000.0, 90000.0])
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     理论范围: Grid [1, 6] (价格: [86000.00, 92000.00])
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 缓存统计（参考）: client_id缓存=0个, 市场实际=5个, 差异=5个
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 💡 注意: 以下检查仅基于市场订单，不依赖缓存
+2026-01-03 15:56:47,808 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查1: 诊断重复订单（相同价格）
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 无重复订单
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查2: 诊断超出理论范围的订单
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在理论范围内
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查3: 检查订单价格是否在正确的网格点上
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在正确的网格点上
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 重复订单: 0个
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 超范围订单: 0个
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 偏离网格点: 0个
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.3 网格覆盖评估
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 获利空格分析: 买单最高Grid=4, 卖单最低Grid=5, 实际空网格=0个, 预期获利空格=1个
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 空网格数量正常，所有空网格都是获利空格: []
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 网格覆盖: 已覆盖=5格, 缺失=1格, 预期=5格
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    真正缺失网格: [6]
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     已覆盖网格: 5格
+2026-01-03 15:56:47,809 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     获利空格: 0格 
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 缺失网格: 1格
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       - Grid 6 @ $91000.0 (SELL)
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📝 订单诊断结果: 
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段3】持仓验证（基于修复后）
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ✅ 订单数量正确，基于实际订单计算预期持仓:
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     实际状态: 4买 + 1卖 = 5个
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 持仓容错检查（预期有持仓）: 预期=0.002, 实际=0, 差异=0.002, 容错=0.0020
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ❌ 持仓异常（超出容错范围）: 差异=0.002 >= 容错=0.0020
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,810 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   预期持仓: 0.002 (基于实际4买单)
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   实际持仓: 0
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   偏差: 0.002 (容错: 0.0020)
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ❌ 持仓健康: 异常（持仓少了 0.002)
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段4】执行操作
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.1 订单操作
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无问题订单需要清理
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⚠️ 检测到 1个缺失网格，订单数已达上限，禁止补单
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.2 持仓操作
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     🔧 执行持仓调整: 缺少持仓需要开仓
+2026-01-03 15:56:47,811 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       预期: 0.002
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       实际: 0
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       偏差: 0.002
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       操作: 补多仓 0.002
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开始持仓调整: 动作=open_long, 数量=0.002
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开多仓: 0.002
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-市场类型判断: config.market_type='perp'
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-交易所类型: exchange.config.exchange_type=ExchangeType.PERPETUAL
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ℹ️ 判定为永续合约模式（market_type 非 'spot'）
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 _open_position: is_spot=False, side=PositionSide.LONG, amount=0.002
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - [永续合约模式] 使用市价单开仓: buy 0.002 (参考价格: 89465.1)
+2026-01-03 15:56:47,812 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 使用通用方法（create_order）
+2026-01-03 15:56:47,978 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 开仓失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 15:56:47,978 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 持仓调整失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 544, in _adjust_position
+    await self._open_position(PositionSide.LONG, amount, current_price)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 693, in _open_position
+    order = await self.engine.exchange.create_order(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack.py", line 458, in create_order
+    order = await self._rest.create_order(symbol, side, order_type, amount, price, params)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - ERROR - error:116 -       ❌ 持仓调整失败
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.3 缓存同步
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⏸️  本轮检查发现问题，跳过缓存同步（等待下一轮）
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 15:56:47,980 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:06:50,303 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 16:06:50,304 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 16:06:50,304 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 16:06:50,305 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:06:50,305 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 16:06:50,305 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:06:50,305 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 16:06:50,305 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 16:06:50,305 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,306 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:06:50,306 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 16:06:50]
+2026-01-03 16:06:50,306 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:06:50,306 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 16:06:50,306 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,306 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,307 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 16:06:50,307 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,307 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 16:06:50,307 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📡 订单数据: 5个 (买单: 4, 卖单: 1)
+2026-01-03 16:06:50,307 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📍 持仓数据: 0.002 BTC_USDC_PERP (方向: LONG)
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段2】订单全面诊断
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.1 订单数量检查
+2026-01-03 16:06:50,308 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前订单: 5个
+2026-01-03 16:06:50,309 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     目标订单: 5个
+2026-01-03 16:06:50,309 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 结论: 订单数量正确
+2026-01-03 16:06:50,309 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,309 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.2 订单质量检查
+2026-01-03 16:06:50,309 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 实际订单分布: 价格范围 [86000, 90000], 网格范围 [Grid 1, Grid 5]
+2026-01-03 16:06:50,309 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔼 做多网格检测到卖单，向上扩展:
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    基础: [86000.0, 91000.0] (Grid 1-5)
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    扩展: [86000.0, 92000.0] (Grid 1-6)
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    预期订单数: 5个 (中间1格为获利空格)
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     网格范围: Grid [1, 5] (价格: [86000.0, 90000.0])
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     理论范围: Grid [1, 6] (价格: [86000.00, 92000.00])
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 缓存统计（参考）: client_id缓存=0个, 市场实际=5个, 差异=5个
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 💡 注意: 以下检查仅基于市场订单，不依赖缓存
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查1: 诊断重复订单（相同价格）
+2026-01-03 16:06:50,310 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 无重复订单
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查2: 诊断超出理论范围的订单
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在理论范围内
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查3: 检查订单价格是否在正确的网格点上
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在正确的网格点上
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 重复订单: 0个
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 超范围订单: 0个
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 偏离网格点: 0个
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,311 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.3 网格覆盖评估
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 获利空格分析: 买单最高Grid=4, 卖单最低Grid=5, 实际空网格=0个, 预期获利空格=1个
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 空网格数量正常，所有空网格都是获利空格: []
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 网格覆盖: 已覆盖=5格, 缺失=1格, 预期=5格
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    真正缺失网格: [6]
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     已覆盖网格: 5格
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     获利空格: 0格 
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 缺失网格: 1格
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       - Grid 6 @ $91000.0 (SELL)
+2026-01-03 16:06:50,312 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📝 订单诊断结果: 
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段3】持仓验证（基于修复后）
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ✅ 订单数量正确，基于实际订单计算预期持仓:
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     实际状态: 4买 + 1卖 = 5个
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 持仓容错检查（预期有持仓）: 预期=0.002, 实际=0, 差异=0.002, 容错=0.0020
+2026-01-03 16:06:50,313 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ❌ 持仓异常（超出容错范围）: 差异=0.002 >= 容错=0.0020
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   预期持仓: 0.002 (基于实际4买单)
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   实际持仓: 0
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   偏差: 0.002 (容错: 0.0020)
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ❌ 持仓健康: 异常（持仓少了 0.002)
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段4】执行操作
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:06:50,314 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.1 订单操作
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无问题订单需要清理
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⚠️ 检测到 1个缺失网格，订单数已达上限，禁止补单
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.2 持仓操作
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     🔧 执行持仓调整: 缺少持仓需要开仓
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       预期: 0.002
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       实际: 0
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       偏差: 0.002
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       操作: 补多仓 0.002
+2026-01-03 16:06:50,315 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开始持仓调整: 动作=open_long, 数量=0.002
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开多仓: 0.002
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-市场类型判断: config.market_type='perp'
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-交易所类型: exchange.config.exchange_type=ExchangeType.PERPETUAL
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ℹ️ 判定为永续合约模式（market_type 非 'spot'）
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 _open_position: is_spot=False, side=PositionSide.LONG, amount=0.002
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - [永续合约模式] 使用市价单开仓: buy 0.002 (参考价格: 89491.6)
+2026-01-03 16:06:50,316 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 使用通用方法（create_order）
+2026-01-03 16:06:50,539 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 开仓失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:06:50,539 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 持仓调整失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:06:50,539 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 544, in _adjust_position
+    await self._open_position(PositionSide.LONG, amount, current_price)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 693, in _open_position
+    order = await self.engine.exchange.create_order(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack.py", line 458, in create_order
+    order = await self._rest.create_order(symbol, side, order_type, amount, price, params)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:06:50,540 - core.services.grid.implementations.order_health_checker - ERROR - error:116 -       ❌ 持仓调整失败
+2026-01-03 16:06:50,540 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,540 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.3 缓存同步
+2026-01-03 16:06:50,540 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⏸️  本轮检查发现问题，跳过缓存同步（等待下一轮）
+2026-01-03 16:06:50,540 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:06:50,540 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:06:50,541 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:06:50,541 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:16:52,666 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 16:16:52,668 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 16:16:52]
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,669 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📡 订单数据: 5个 (买单: 4, 卖单: 1)
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📍 持仓数据: 0.002 BTC_USDC_PERP (方向: LONG)
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段2】订单全面诊断
+2026-01-03 16:16:52,670 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.1 订单数量检查
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前订单: 5个
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     目标订单: 5个
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 结论: 订单数量正确
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.2 订单质量检查
+2026-01-03 16:16:52,671 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 实际订单分布: 价格范围 [86000, 90000], 网格范围 [Grid 1, Grid 5]
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔼 做多网格检测到卖单，向上扩展:
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    基础: [86000.0, 91000.0] (Grid 1-5)
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    扩展: [86000.0, 92000.0] (Grid 1-6)
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    预期订单数: 5个 (中间1格为获利空格)
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     网格范围: Grid [1, 5] (价格: [86000.0, 90000.0])
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     理论范围: Grid [1, 6] (价格: [86000.00, 92000.00])
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 缓存统计（参考）: client_id缓存=0个, 市场实际=5个, 差异=5个
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 💡 注意: 以下检查仅基于市场订单，不依赖缓存
+2026-01-03 16:16:52,672 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查1: 诊断重复订单（相同价格）
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 无重复订单
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查2: 诊断超出理论范围的订单
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在理论范围内
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查3: 检查订单价格是否在正确的网格点上
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在正确的网格点上
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 重复订单: 0个
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 超范围订单: 0个
+2026-01-03 16:16:52,673 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 偏离网格点: 0个
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.3 网格覆盖评估
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 获利空格分析: 买单最高Grid=4, 卖单最低Grid=5, 实际空网格=0个, 预期获利空格=1个
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 空网格数量正常，所有空网格都是获利空格: []
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 网格覆盖: 已覆盖=5格, 缺失=1格, 预期=5格
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    真正缺失网格: [6]
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     已覆盖网格: 5格
+2026-01-03 16:16:52,674 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     获利空格: 0格 
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 缺失网格: 1格
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       - Grid 6 @ $91000.0 (SELL)
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📝 订单诊断结果: 
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段3】持仓验证（基于修复后）
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,675 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ✅ 订单数量正确，基于实际订单计算预期持仓:
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     实际状态: 4买 + 1卖 = 5个
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 持仓容错检查（预期有持仓）: 预期=0.002, 实际=0, 差异=0.002, 容错=0.0020
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ❌ 持仓异常（超出容错范围）: 差异=0.002 >= 容错=0.0020
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   预期持仓: 0.002 (基于实际4买单)
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   实际持仓: 0
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   偏差: 0.002 (容错: 0.0020)
+2026-01-03 16:16:52,676 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ❌ 持仓健康: 异常（持仓少了 0.002)
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段4】执行操作
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.1 订单操作
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无问题订单需要清理
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,677 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⚠️ 检测到 1个缺失网格，订单数已达上限，禁止补单
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.2 持仓操作
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     🔧 执行持仓调整: 缺少持仓需要开仓
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       预期: 0.002
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       实际: 0
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       偏差: 0.002
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       操作: 补多仓 0.002
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开始持仓调整: 动作=open_long, 数量=0.002
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开多仓: 0.002
+2026-01-03 16:16:52,678 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-市场类型判断: config.market_type='perp'
+2026-01-03 16:16:52,679 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-交易所类型: exchange.config.exchange_type=ExchangeType.PERPETUAL
+2026-01-03 16:16:52,679 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ℹ️ 判定为永续合约模式（market_type 非 'spot'）
+2026-01-03 16:16:52,679 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 _open_position: is_spot=False, side=PositionSide.LONG, amount=0.002
+2026-01-03 16:16:52,679 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - [永续合约模式] 使用市价单开仓: buy 0.002 (参考价格: 89469.9)
+2026-01-03 16:16:52,679 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 使用通用方法（create_order）
+2026-01-03 16:16:52,840 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 开仓失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:16:52,840 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 持仓调整失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 544, in _adjust_position
+    await self._open_position(PositionSide.LONG, amount, current_price)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 693, in _open_position
+    order = await self.engine.exchange.create_order(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack.py", line 458, in create_order
+    order = await self._rest.create_order(symbol, side, order_type, amount, price, params)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - ERROR - error:116 -       ❌ 持仓调整失败
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.3 缓存同步
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⏸️  本轮检查发现问题，跳过缓存同步（等待下一轮）
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:16:52,841 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:26:54,345 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 16:26:54,346 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 16:26:54,346 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,347 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:26:54,348 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 16:26:54]
+2026-01-03 16:26:54,348 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:26:54,348 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 16:26:54,348 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,348 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,348 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 16:26:54,349 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,349 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 16:26:54,349 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📡 订单数据: 5个 (买单: 4, 卖单: 1)
+2026-01-03 16:26:54,349 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📍 持仓数据: 0.002 BTC_USDC_PERP (方向: LONG)
+2026-01-03 16:26:54,349 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,349 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,350 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段2】订单全面诊断
+2026-01-03 16:26:54,350 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,350 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,350 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.1 订单数量检查
+2026-01-03 16:26:54,350 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前订单: 5个
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     目标订单: 5个
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 结论: 订单数量正确
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.2 订单质量检查
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 实际订单分布: 价格范围 [86000, 90000], 网格范围 [Grid 1, Grid 5]
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔼 做多网格检测到卖单，向上扩展:
+2026-01-03 16:26:54,351 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    基础: [86000.0, 91000.0] (Grid 1-5)
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    扩展: [86000.0, 92000.0] (Grid 1-6)
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    预期订单数: 5个 (中间1格为获利空格)
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     网格范围: Grid [1, 5] (价格: [86000.0, 90000.0])
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     理论范围: Grid [1, 6] (价格: [86000.00, 92000.00])
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 缓存统计（参考）: client_id缓存=0个, 市场实际=5个, 差异=5个
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 💡 注意: 以下检查仅基于市场订单，不依赖缓存
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查1: 诊断重复订单（相同价格）
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 无重复订单
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查2: 诊断超出理论范围的订单
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在理论范围内
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查3: 检查订单价格是否在正确的网格点上
+2026-01-03 16:26:54,352 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在正确的网格点上
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 重复订单: 0个
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 超范围订单: 0个
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 偏离网格点: 0个
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.3 网格覆盖评估
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 获利空格分析: 买单最高Grid=4, 卖单最低Grid=5, 实际空网格=0个, 预期获利空格=1个
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 空网格数量正常，所有空网格都是获利空格: []
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 网格覆盖: 已覆盖=5格, 缺失=1格, 预期=5格
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    真正缺失网格: [6]
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     已覆盖网格: 5格
+2026-01-03 16:26:54,353 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     获利空格: 0格 
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 缺失网格: 1格
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       - Grid 6 @ $91000.0 (SELL)
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📝 订单诊断结果: 
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段3】持仓验证（基于修复后）
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ✅ 订单数量正确，基于实际订单计算预期持仓:
+2026-01-03 16:26:54,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     实际状态: 4买 + 1卖 = 5个
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 持仓容错检查（预期有持仓）: 预期=0.002, 实际=0, 差异=0.002, 容错=0.0020
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ❌ 持仓异常（超出容错范围）: 差异=0.002 >= 容错=0.0020
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   预期持仓: 0.002 (基于实际4买单)
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   实际持仓: 0
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   偏差: 0.002 (容错: 0.0020)
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ❌ 持仓健康: 异常（持仓少了 0.002)
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段4】执行操作
+2026-01-03 16:26:54,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.1 订单操作
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无问题订单需要清理
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⚠️ 检测到 1个缺失网格，订单数已达上限，禁止补单
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.2 持仓操作
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     🔧 执行持仓调整: 缺少持仓需要开仓
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       预期: 0.002
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       实际: 0
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       偏差: 0.002
+2026-01-03 16:26:54,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       操作: 补多仓 0.002
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开始持仓调整: 动作=open_long, 数量=0.002
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开多仓: 0.002
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-市场类型判断: config.market_type='perp'
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-交易所类型: exchange.config.exchange_type=ExchangeType.PERPETUAL
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ℹ️ 判定为永续合约模式（market_type 非 'spot'）
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 _open_position: is_spot=False, side=PositionSide.LONG, amount=0.002
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - [永续合约模式] 使用市价单开仓: buy 0.002 (参考价格: 89547.4)
+2026-01-03 16:26:54,357 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 使用通用方法（create_order）
+2026-01-03 16:26:54,518 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 开仓失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:26:54,518 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 持仓调整失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:26:54,519 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 544, in _adjust_position
+    await self._open_position(PositionSide.LONG, amount, current_price)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 693, in _open_position
+    order = await self.engine.exchange.create_order(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack.py", line 458, in create_order
+    order = await self._rest.create_order(symbol, side, order_type, amount, price, params)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:26:54,519 - core.services.grid.implementations.order_health_checker - ERROR - error:116 -       ❌ 持仓调整失败
+2026-01-03 16:26:54,520 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,520 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.3 缓存同步
+2026-01-03 16:26:54,520 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⏸️  本轮检查发现问题，跳过缓存同步（等待下一轮）
+2026-01-03 16:26:54,520 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:26:54,520 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:26:54,521 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:26:54,521 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:36:56,099 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 16:36:56,100 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 16:36:56,100 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 16:36:56,100 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:36:56,100 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 16:36:56,100 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:36:56,100 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 16:36:56]
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,101 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📡 订单数据: 5个 (买单: 4, 卖单: 1)
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📍 持仓数据: 0.002 BTC_USDC_PERP (方向: LONG)
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,102 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段2】订单全面诊断
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.1 订单数量检查
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     当前订单: 5个
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     目标订单: 5个
+2026-01-03 16:36:56,103 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 结论: 订单数量正确
+2026-01-03 16:36:56,104 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,104 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.2 订单质量检查
+2026-01-03 16:36:56,104 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 实际订单分布: 价格范围 [86000, 90000], 网格范围 [Grid 1, Grid 5]
+2026-01-03 16:36:56,104 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔼 做多网格检测到卖单，向上扩展:
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    基础: [86000.0, 91000.0] (Grid 1-5)
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    扩展: [86000.0, 92000.0] (Grid 1-6)
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    预期订单数: 5个 (中间1格为获利空格)
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     网格范围: Grid [1, 5] (价格: [86000.0, 90000.0])
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     理论范围: Grid [1, 6] (价格: [86000.00, 92000.00])
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📊 缓存统计（参考）: client_id缓存=0个, 市场实际=5个, 差异=5个
+2026-01-03 16:36:56,105 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 💡 注意: 以下检查仅基于市场订单，不依赖缓存
+2026-01-03 16:36:56,106 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查1: 诊断重复订单（相同价格）
+2026-01-03 16:36:56,106 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 无重复订单
+2026-01-03 16:36:56,106 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查2: 诊断超出理论范围的订单
+2026-01-03 16:36:56,106 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在理论范围内
+2026-01-03 16:36:56,106 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 检查3: 检查订单价格是否在正确的网格点上
+2026-01-03 16:36:56,106 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 所有订单都在正确的网格点上
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 重复订单: 0个
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 超范围订单: 0个
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 偏离网格点: 0个
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 2.3 网格覆盖评估
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 获利空格分析: 买单最高Grid=4, 卖单最低Grid=5, 实际空网格=0个, 预期获利空格=1个
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    ✅ 空网格数量正常，所有空网格都是获利空格: []
+2026-01-03 16:36:56,107 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 📍 网格覆盖: 已覆盖=5格, 缺失=1格, 预期=5格
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 -    真正缺失网格: [6]
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     已覆盖网格: 5格
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     获利空格: 0格 
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ❌ 缺失网格: 1格
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       - Grid 6 @ $91000.0 (SELL)
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,108 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   📝 订单诊断结果: 
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段3】持仓验证（基于修复后）
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ✅ 订单数量正确，基于实际订单计算预期持仓:
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     实际状态: 4买 + 1卖 = 5个
+2026-01-03 16:36:56,109 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 持仓容错检查（预期有持仓）: 预期=0.002, 实际=0, 差异=0.002, 容错=0.0020
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ❌ 持仓异常（超出容错范围）: 差异=0.002 >= 容错=0.0020
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   预期持仓: 0.002 (基于实际4买单)
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   实际持仓: 0
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   偏差: 0.002 (容错: 0.0020)
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ❌ 持仓健康: 异常（持仓少了 0.002)
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,110 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段4】执行操作
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.1 订单操作
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ✅ 无问题订单需要清理
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⚠️ 检测到 1个缺失网格，订单数已达上限，禁止补单
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.2 持仓操作
+2026-01-03 16:36:56,111 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     🔧 执行持仓调整: 缺少持仓需要开仓
+2026-01-03 16:36:56,112 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       预期: 0.002
+2026-01-03 16:36:56,112 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       实际: 0
+2026-01-03 16:36:56,112 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       偏差: 0.002
+2026-01-03 16:36:56,112 - core.services.grid.implementations.order_health_checker - INFO - info:102 -       操作: 补多仓 0.002
+2026-01-03 16:36:56,112 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开始持仓调整: 动作=open_long, 数量=0.002
+2026-01-03 16:36:56,112 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 开多仓: 0.002
+2026-01-03 16:36:56,113 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-市场类型判断: config.market_type='perp'
+2026-01-03 16:36:56,113 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查-交易所类型: exchange.config.exchange_type=ExchangeType.PERPETUAL
+2026-01-03 16:36:56,113 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ℹ️ 判定为永续合约模式（market_type 非 'spot'）
+2026-01-03 16:36:56,113 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 _open_position: is_spot=False, side=PositionSide.LONG, amount=0.002
+2026-01-03 16:36:56,113 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - [永续合约模式] 使用市价单开仓: buy 0.002 (参考价格: 89680.7)
+2026-01-03 16:36:56,113 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 使用通用方法（create_order）
+2026-01-03 16:36:56,278 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 开仓失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:36:56,278 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - ❌ 持仓调整失败: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - ERROR - error:116 - Traceback (most recent call last):
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 544, in _adjust_position
+    await self._open_position(PositionSide.LONG, amount, current_price)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/services/grid/implementations/order_health_checker.py", line 693, in _open_position
+    order = await self.engine.exchange.create_order(
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack.py", line 458, in create_order
+    order = await self._rest.create_order(symbol, side, order_type, amount, price, params)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 1512, in create_order
+    response = await self._make_authenticated_request("POST", "/api/v1/order", data=order_data)
+  File "/Users/lichenglin/PycharmProjects/PythonProject/crypto-trading-open/core/adapters/exchanges/adapters/backpack_rest.py", line 435, in _make_authenticated_request
+    raise RuntimeError(
+RuntimeError: API request failed: 400 - {"code":"INVALID_CLIENT_REQUEST","message":"Market orders must not specify a `price`"}
+
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - ERROR - error:116 -       ❌ 持仓调整失败
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   ▶ 4.3 缓存同步
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 -     ⏸️  本轮检查发现问题，跳过缓存同步（等待下一轮）
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ✅ 健康检查完成
+2026-01-03 16:36:56,279 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:48:27,352 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:788 - ================================================================================
+2026-01-03 16:48:27,353 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:789 - 🔍 [直接测试] 开始执行订单和持仓健康检查
+2026-01-03 16:48:27,353 - core.services.grid.implementations.order_health_checker - DEBUG - _perform_health_check_internal:790 - ================================================================================
+2026-01-03 16:48:27,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:48:27,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 开始执行订单和持仓健康检查
+2026-01-03 16:48:27,353 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - ================================================================================
+2026-01-03 16:48:27,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📊 健康检查器被调用
+2026-01-03 16:48:27,354 - core.services.grid.implementations.order_health_checker - DEBUG - debug:95 - 🔍 INFO日志后的DEBUG测试
+2026-01-03 16:48:27,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:48:27,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:48:27,354 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 🔍 健康检查开始 [2026-01-03 16:48:27]
+2026-01-03 16:48:27,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ================================================================================
+2026-01-03 16:48:27,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 📸 快照验证: ✅ 数据已通过3次快照验证，稳定可靠
+2026-01-03 16:48:27,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 
+2026-01-03 16:48:27,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:48:27,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - 【阶段1】数据获取
+2026-01-03 16:48:27,355 - core.services.grid.implementations.order_health_checker - INFO - info:102 - ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+2026-01-03 16:48:27,356 - core.services.grid.implementations.order_health_checker - INFO - info:102 -   🚀 使用快照数据（无需重复REST API调用）
+2026-01-03 16:48:27,356 - core.services.grid.implementations.order_health_checker - WARNING - warning:109 - ⚠️ 未获取到任何挂单，跳过健康检查

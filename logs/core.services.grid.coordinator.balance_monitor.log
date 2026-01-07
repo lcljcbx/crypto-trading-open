@@ -36,3 +36,12 @@
 2026-01-03 15:40:12,698 - core.services.grid.coordinator.balance_monitor - WARNING - warning:109 - ⚠️ 未找到USDC余额，所有币种: (空)
 2026-01-03 15:41:13,012 - core.services.grid.coordinator.balance_monitor - WARNING - warning:109 - ⚠️ 未找到USDC余额，所有币种: (空)
 2026-01-03 15:42:13,279 - core.services.grid.coordinator.balance_monitor - WARNING - warning:109 - ⚠️ 未找到USDC余额，所有币种: (空)
+2026-01-03 15:43:13,635 - core.services.grid.coordinator.balance_monitor - WARNING - warning:109 - ⚠️ 未找到USDC余额，所有币种: (空)
+2026-01-03 15:44:13,974 - core.services.grid.coordinator.balance_monitor - WARNING - warning:109 - ⚠️ 未找到USDC余额，所有币种: (空)
+2026-01-03 15:44:21,813 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - 💰 余额监控循环被取消
+2026-01-03 15:44:21,813 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - ✅ 余额监控已停止
+2026-01-03 15:45:44,025 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - 💰 初始本金已记录: $132.918 USDC
+2026-01-03 15:45:44,026 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - ✅ 账户余额轮询已启动（间隔60秒）
+2026-01-03 15:45:44,033 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - 💰 账户余额监控循环已启动
+2026-01-03 17:01:19,409 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - 💰 余额监控循环被取消
+2026-01-03 17:01:19,409 - core.services.grid.coordinator.balance_monitor - INFO - info:102 - ✅ 余额监控已停止

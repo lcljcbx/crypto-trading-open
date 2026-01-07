@@ -13,3 +13,6 @@
 2026-01-03 15:36:58,793 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 91000.0], 间隔1000, 5个网格
 2026-01-03 15:36:58,794 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成5个买单，价格范围 $86,000.00 - $90,000.00
 2026-01-03 15:36:58,794 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成5个初始订单，准备批量挂单
+2026-01-03 15:45:39,891 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 初始化long网格: 区间[86000.0, 91000.0], 间隔1000, 5个网格
+2026-01-03 15:45:39,891 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 做多网格：生成5个买单，价格范围 $86,000.00 - $90,000.00
+2026-01-03 15:45:39,891 - core.services.grid.implementations.grid_strategy_impl - INFO - info:102 - 生成5个初始订单，准备批量挂单
